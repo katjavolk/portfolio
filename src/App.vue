@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <navbar/>
-    <router-view/>
+    
+    <grid/>
+    <end/>
+    
   </div>
+
 </template>
 
 <style>
@@ -11,11 +15,20 @@
 
 <script>
 import navbar from '@/navbar/nav.vue'
+import grid from '@/grid/grid.vue'
+import end from '@/end/end.vue'
+
+
 export default {
   name: 'index',
   components: {
-    navbar	
+    navbar,	
+    grid,
+    end
+    
+    
   }
 }
+
 
 </script>

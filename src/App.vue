@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <navbar/>
-    <welcome/>
-    <grid/>
-    
+
+      <router-view>
+        <home/>
+      </router-view>
+        
     <end/>
   </div>
 </template>
@@ -19,19 +21,20 @@ body {
 </style>
 
 <script>
+
 import navbar from '@/navbar/nav.vue'
-import welcome from '@/welcome/welcome.vue'
-import grid from '@/grid/grid.vue'
 import end from '@/end/end.vue'
+import home from '@/views/Home.vue'
 
 
 export default {
   name: 'index',
   components: {
     navbar,	
-    grid,
     end,
-    welcome
+    home,
+  
+   
     
     
   }

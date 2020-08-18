@@ -1,7 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+      <headerimg/>
+     
+      <titel/>
+      <paragraph/>
+      <welcome/>
+      <grid/>
+      
+     
+
+    
+    
   </div>
 
 
@@ -14,10 +24,28 @@
 <script>
 // @ is an alias to /src
 
+import welcome from'@/welcome/welcome.vue'
+import grid from '@/grid/grid.vue'
+
+import titel from '@/projekt/titel.vue'
+import paragraph from '@/projekt/paragraph.vue'
+import headerimg from'@/projekt/headerimg.vue'
+
+
+
 
 export default {
   name: 'Home',
   components: {
+
+    welcome,
+    grid,
+    headerimg,
+    titel,
+    paragraph,
+   
+    
+
     
   }
 }

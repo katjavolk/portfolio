@@ -1,7 +1,7 @@
 <template >
 
-
-<b-container style="padding:0px; margin-bottom:30px;">
+<div>
+<b-container style="padding:0px;">
   <b-navbar style="padding-left:0px; padding-right:0px; padding-bottom:0px;" toggleable="lg" type="light" variant="white">
     <b-navbar-brand href="#">Katja Volk</b-navbar-brand>
 
@@ -27,6 +27,9 @@
    
 
   </b-navbar>
-   <div style="background-color:#4885FF; width:100%; height:6px;"> </div>
+   
 </b-container>
+<b-container fluid style="background-color:#4885FF; height:6px;"> </b-container>
+
+</div>
 </template>

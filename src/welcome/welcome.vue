@@ -4,21 +4,21 @@
       Das ist mein
       <br />Portfolio
     </h1>
+
     <h3>Check it out!</h3>
   </b-container>
 </template>
 
 
 <style lang="scss">
-
 .h1size {
-  font-size: 120px;
+  font-size: 100px;
   font-family: Syne-Bold;
 }
 
 @media screen and (max-width: 1140px) {
   .h1size {
-    font-size: 120px;
+    font-size: 100px;
   }
 }
 
@@ -34,3 +34,4 @@
   }
 }
 </style>
+

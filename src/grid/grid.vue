@@ -10,7 +10,7 @@
 
         
         <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
-          <b-link  href="https://de.wikipedia.org/wiki/Katzen">
+          <b-link  to="/wizard">
           <img 
             class="image"
             style="margin:0px;"
@@ -26,6 +26,7 @@
         
 
         <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/pigsoninstagram">
           <img
             class="image"
             style="width:100%;  margin:0px;"
@@ -34,9 +35,11 @@
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Why are there so many pigs on instagram?</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/silentsongs">
           <img
             class="image"
             style="width:100%;  margin:0px;"
@@ -45,9 +48,11 @@
            <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Silent Songs</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/horror">
           <img
             class="image"
             style="width:100%;  margin:0px;"
@@ -56,9 +61,11 @@
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/optipessi">
           <img
             class="image"
             style="width:100%;  margin:0px;"
@@ -67,9 +74,11 @@
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Optimist:Pessismist</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/wabi">
           <img
             class="image"
             style="width:100%; height:auto; margin:0px;"
@@ -78,9 +87,11 @@
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Wabi Phone</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/tinkerfestival">
           <img
             class="image"
             style="width:100%; height:auto; margin:0px;"
@@ -89,9 +100,11 @@
          <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Tinkerfestival Würzburg</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+          <b-link to="/geometryplus">
           <img
             class="image"
             style="width:100%;  margin:0px;"
@@ -100,6 +113,7 @@
          <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Geometry+</div>
           </div>
+          </b-link>
         </b-col>
 
         <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">

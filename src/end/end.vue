@@ -3,9 +3,9 @@
 
     <div style="width:100%; height:2px; background-color:black; margin-bottom:5px;"> </div>
 
-    <div style="float: left;">Katja Volk </div>
-    <div style="float: right; ">Impressum </div>
-    <div style="float: right; margin-right: 20px;">Datenschutz </div>
+    <b-link class="footerlink" style="float: left;" to="/">Katja Volk </b-link>
+    <b-link class="footerlink" style="float: right;" to="/impressum" >Impressum </b-link>
+    <b-link class="footerlink" style="float: right; margin-right: 20px;" to="/datenschutz">Datenschutz </b-link>
     
     
 
@@ -15,3 +15,20 @@
 
 
 </template>
+
+
+<style>
+
+.footerlink {
+
+    color:black;
+}
+
+.footerlink:hover{
+
+    color:grey;
+    text-decoration: none;
+
+}
+
+</style>

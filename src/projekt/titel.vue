@@ -1,11 +1,15 @@
 <template>
-  <b-container style="padding-left: 0px; " >
-    <h1 class="h1size">
-      Silent Songs
+  <div >
+    <h1 class="h1size"  >
+      
+      {{headline}}
+     
     </h1>
 
-    <h2 class="h2size">Lieder aus Licht</h2>
-  </b-container>
+    <h2 class="h2size">Lieder aus Licht
+     
+    </h2>
+  </div>
 </template>
 
 
@@ -20,7 +24,7 @@
 @media screen and (max-width: 1200px) {
   .h1size {
     font-size: 100px;
-    margin-top:0px;
+    margin-top:30px;
   }
 }
 
@@ -77,7 +81,7 @@
 @media screen and (max-width: 576px) {
   .h2size {
     font-size: 20px;
-    margin-top:-8px;
+    margin-top:-10px;
   
   }
 }
@@ -85,3 +89,14 @@
 
 
 </style>
+
+<script>
+
+
+
+export default {
+  props: {
+    headline: String
+}
+}
+</script>

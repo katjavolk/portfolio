@@ -1,8 +1,10 @@
 <template>
-  <b-container style="padding-left: 0px; margin-bottom: 50px;">
+  <b-container style="padding-left: 0px; margin-bottom: 100px; margin-top:30px;">
     <h1 class="h1size">
       Das ist mein
       <br />Portfolio
+      
+      
     </h1>
 
     <h3>Check it out!</h3>
@@ -34,4 +36,5 @@
   }
 }
 </style>
+
 

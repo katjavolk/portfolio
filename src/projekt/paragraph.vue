@@ -1,6 +1,6 @@
 <template>
 
-<b-container style="padding:0px;" >
+<div>
 
     <b-container>
   <b-row > 
@@ -26,7 +26,7 @@
 
       
 
-   </b-container> 
+   </div> 
 </template>
 
 

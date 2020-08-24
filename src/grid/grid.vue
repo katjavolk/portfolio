@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <b-container style="padding:0px;">
-      <h3>Projekte</h3>
-    </b-container>
+  <div >
+   
 
-    <b-container class="bv-example-row">
-      <b-row>
+    
+
+        <h3>Projekte</h3>
+
+
+      <b-row  style="width:100%; margin:auto;">
 
 
         
@@ -14,7 +16,7 @@
           <img 
             class="image"
             style="margin:0px;"
-            src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
+            src="..\assets\img\wizard_teaser.jpg"
           />
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Clod, the weather wizard</div>
@@ -30,7 +32,7 @@
           <img
             class="image"
             style="width:100%;  margin:0px;"
-            src="https://img.welt.de/img/kmpkt/mobile191543787/8842508007-ci102l-w1024/Cat-lying-on-bed.jpg"
+            src="..\assets\img\pigsoninstagram_teaser.jpg"
           />
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Why are there so many pigs on instagram?</div>
@@ -43,7 +45,7 @@
           <img
             class="image"
             style="width:100%;  margin:0px;"
-            src="https://www.fressnapf.de/medias/katze-revieranspr-che-580-500.jpg?context=bWFzdGVyfHJvb3R8NTAzNTF8aW1hZ2UvanBlZ3xoZGIvaDNjLzk2NTgxNzIzNDIzMDIuanBnfGRiYTBkNGMwYWI0MWMzYjhmZGZiNmNiM2NlNGY4YzMwZGI4ODlhMTQ5NWU5YTBmNTQ2ZDFlZDU4NTQ4YmNlODk"
+            src="..\assets\img\silentsongs_teaser.jpg"
           />
            <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Silent Songs</div>
@@ -56,7 +58,7 @@
           <img
             class="image"
             style="width:100%;  margin:0px;"
-            src="https://img.welt.de/img/kmpkt/mobile191543787/8842508007-ci102l-w1024/Cat-lying-on-bed.jpg"
+            src="..\assets\img\horror_teaser.jpg"
           />
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
@@ -69,7 +71,7 @@
           <img
             class="image"
             style="width:100%;  margin:0px;"
-            src="https://www.fressnapf.de/medias/katze-revieranspr-che-580-500.jpg?context=bWFzdGVyfHJvb3R8NTAzNTF8aW1hZ2UvanBlZ3xoZGIvaDNjLzk2NTgxNzIzNDIzMDIuanBnfGRiYTBkNGMwYWI0MWMzYjhmZGZiNmNiM2NlNGY4YzMwZGI4ODlhMTQ5NWU5YTBmNTQ2ZDFlZDU4NTQ4YmNlODk"
+            src="..\assets\img\optipessi_teaser.jpg"
           />
           <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Optimist:Pessismist</div>
@@ -95,7 +97,7 @@
           <img
             class="image"
             style="width:100%; height:auto; margin:0px;"
-            src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
+            src="..\assets\img\tinkerfestival_teaser.jpg"
           />
          <div class="overlay">
           <div class="middlestuff" style="position:absolute;">Tinkerfestival Würzburg</div>
@@ -127,7 +129,7 @@
           </div>
         </b-col>
       </b-row>
-    </b-container>
+    
   </div>
 </template>
 

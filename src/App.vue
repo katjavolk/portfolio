@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <navbar/>
+    <b-container fluid style="padding:0px;">
+    <navbar />
 
-      <router-view>
-        <home/>
-      </router-view>
-        
-    <end/>
+    <router-view>
+      <home />
+    </router-view>
+
+    <end />
+    </b-container>
   </div>
 </template>
 
 <style lang="scss">
-  @import '@/assets/fonts.scss';
-  @import '~bootstrap/scss/bootstrap.scss';
-  @import '~bootstrap-vue/src/index.scss';
+@import "@/assets/fonts.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap-vue/src/index.scss";
 
 body {
   font-family: Syne-Regular !important;
@@ -21,24 +23,16 @@ body {
 </style>
 
 <script>
-
-import navbar from '@/navbar/nav.vue'
-import end from '@/end/end.vue'
-import home from '@/views/Home.vue'
-
+import navbar from "@/navbar/nav.vue";
+import end from "@/end/end.vue";
+import home from "@/views/Home.vue";
 
 export default {
-  name: 'index',
+  name: "index",
   components: {
-    navbar,	
+    navbar,
     end,
     home,
-  
-   
-    
-    
-  }
-}
-
-
+  },
+};
 </script>

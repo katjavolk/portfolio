@@ -1,7 +1,7 @@
 <template >
 
 <div>
-<b-container style="padding:0px;">
+<b-container>
   <b-navbar style="padding-left:0px; padding-right:0px; padding-bottom:0px;" toggleable="lg" type="light" variant="white">
     <b-navbar-brand to="/">Katja Volk</b-navbar-brand>
 

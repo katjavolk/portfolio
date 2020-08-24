@@ -1,5 +1,5 @@
 <template>
-    <b-container style="margin-top:50px; margin-bottom: 50px; padding:0px;">
+    <b-container style="margin-top:50px; margin-bottom: 50px;">
 
     <div style="width:100%; height:2px; background-color:black; margin-bottom:5px;"> </div>
 

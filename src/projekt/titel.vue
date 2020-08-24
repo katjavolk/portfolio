@@ -1,12 +1,13 @@
 <template>
-  <div >
+  <div>
     <h1 class="h1size"  >
       
       {{headline}}
      
     </h1>
 
-    <h2 class="h2size">Lieder aus Licht
+    <h2 class="h2size">
+      {{subheadline}}
      
     </h2>
   </div>
@@ -96,7 +97,8 @@
 
 export default {
   props: {
-    headline: String
+    headline: String,
+    subheadline: String,
 }
 }
 </script>

@@ -1,142 +1,124 @@
 <template>
-  <div >
-   
+  <div>
+    <h3>Projekte</h3>
 
-    
-
-        <h3>Projekte</h3>
-
-
-      <b-row  style="width:100%; margin:auto;">
-
-
-        
-        <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
-          <b-link  to="/wizard">
-          <img 
-            class="image"
-            style="margin:0px;"
-            src="..\assets\img\wizard_teaser.jpg"
-          />
+    <b-row style="width:100%; margin:auto;">
+      <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/wizard">
+          <img class="image" style="margin:0px;" src="..\assets\img\wizard_teaser.jpg" />
           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Clod, the weather wizard</div>
-          
+            <div class="middlestuff" style="position:absolute;">Clod, the weather wizard</div>
           </div>
-          </b-link>
-        </b-col>
-        
-        
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/pigsoninstagram">
+      <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/pigsoninstagram">
           <img
             class="image"
             style="width:100%;  margin:0px;"
             src="..\assets\img\pigsoninstagram_teaser.jpg"
           />
           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Why are there so many pigs on instagram?</div>
+            <div
+              class="middlestuff"
+              style="position:absolute;"
+            >Why are there so many pigs on instagram?</div>
           </div>
-          </b-link>
-        </b-col>
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/silentsongs">
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/silentsongs">
           <img
             class="image"
             style="width:100%;  margin:0px;"
             src="..\assets\img\silentsongs_teaser.jpg"
           />
-           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Silent Songs</div>
-          </div>
-          </b-link>
-        </b-col>
-
-        <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/horror">
-          <img
-            class="image"
-            style="width:100%;  margin:0px;"
-            src="..\assets\img\horror_teaser.jpg"
-          />
           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
+            <div class="middlestuff" style="position:absolute;">Silent Songs</div>
           </div>
-          </b-link>
-        </b-col>
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/optipessi">
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/horror">
+          <img class="image" style="width:100%;  margin:0px;" src="..\assets\img\horror_teaser.jpg" />
+          <div class="overlay">
+            <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
+          </div>
+        </b-link>
+      </b-col>
+
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/optipessi">
           <img
             class="image"
             style="width:100%;  margin:0px;"
             src="..\assets\img\optipessi_teaser.jpg"
           />
           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Optimist:Pessismist</div>
+            <div class="middlestuff" style="position:absolute;">Optimist:Pessismist</div>
           </div>
-          </b-link>
-        </b-col>
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/wabi">
+      <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/wabi">
           <img
             class="image"
             style="width:100%; height:auto; margin:0px;"
             src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
           />
           <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Wabi Phone</div>
+            <div class="middlestuff" style="position:absolute;">Wabi Phone</div>
           </div>
-          </b-link>
-        </b-col>
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/tinkerfestival">
+      <b-col class="column" style="background-color:green; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/tinkerfestival">
           <img
             class="image"
             style="width:100%; height:auto; margin:0px;"
             src="..\assets\img\tinkerfestival_teaser.jpg"
           />
-         <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Tinkerfestival Würzburg</div>
+          <div class="overlay">
+            <div class="middlestuff" style="position:absolute;">Tinkerfestival Würzburg</div>
           </div>
-          </b-link>
-        </b-col>
+        </b-link>
+      </b-col>
 
-        <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-          <b-link to="/geometryplus">
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/geometryplus">
           <img
             class="image"
             style="width:100%;  margin:0px;"
             src="https://img.welt.de/img/kmpkt/mobile191543787/8842508007-ci102l-w1024/Cat-lying-on-bed.jpg"
           />
-         <div class="overlay">
-          <div class="middlestuff" style="position:absolute;">Geometry+</div>
-          </div>
-          </b-link>
-        </b-col>
-
-        <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-          <img
-            class="image"
-            style="width:100%;  margin:0px;"
-            src="https://www.fressnapf.de/medias/katze-revieranspr-che-580-500.jpg?context=bWFzdGVyfHJvb3R8NTAzNTF8aW1hZ2UvanBlZ3xoZGIvaDNjLzk2NTgxNzIzNDIzMDIuanBnfGRiYTBkNGMwYWI0MWMzYjhmZGZiNmNiM2NlNGY4YzMwZGI4ODlhMTQ5NWU5YTBmNTQ2ZDFlZDU4NTQ4YmNlODk"
-          />
           <div class="overlay">
-          <div style="position:absolute; bottom:8px; left:16px;">hello</div>
+            <div class="middlestuff" style="position:absolute;">Geometry+</div>
           </div>
-        </b-col>
-      </b-row>
-    
+        </b-link>
+      </b-col>
+
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <img
+          class="image"
+          style="width:100%;  margin:0px;"
+          src="https://www.fressnapf.de/medias/katze-revieranspr-che-580-500.jpg?context=bWFzdGVyfHJvb3R8NTAzNTF8aW1hZ2UvanBlZ3xoZGIvaDNjLzk2NTgxNzIzNDIzMDIuanBnfGRiYTBkNGMwYWI0MWMzYjhmZGZiNmNiM2NlNGY4YzMwZGI4ODlhMTQ5NWU5YTBmNTQ2ZDFlZDU4NTQ4YmNlODk"
+        />
+        <div class="overlay">
+          <div style="position:absolute; bottom:8px; left:16px;">hello</div>
+        </div>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
 
 
 <style >
-
 .column {
   position: relative;
 }
@@ -155,15 +137,13 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .3s ease;
-  background-color:black;
+  transition: 0.3s ease;
+  background-color: black;
 }
 
 .column:hover .overlay {
   opacity: 0.8;
 }
-
-
 
 .middlestuff {
   font-family: Syne-Bold;
@@ -177,6 +157,4 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
 </style>

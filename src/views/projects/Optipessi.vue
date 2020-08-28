@@ -5,11 +5,11 @@
  <headerimg headerimgbackground="black"/>
      </b-container> 
    
-   <b-container>
-      <titel headline="Clod, the weather wizard" />
-      <videovimeo/>
+   <b-container >
+      <titel headline="Optimist:Pessimist" />
+      <paragraph/>
       
-    <imggridWizard />
+    <imggridOptipessi />
     
    </b-container>
     
@@ -24,18 +24,19 @@
 <script>
 import headerimg from "@/projekt/headerimg.vue";
 import titel from "@/projekt/titel.vue";
+import paragraph from '@/projekt/paragraph.vue'
 
-import imggridWizard from "@/projekt/imggridWizard.vue";
-import videovimeo from "@/projekt/videovimeo.vue";
+import imggridOptipessi from "@/projekt/imggridOptipessi.vue";
+
 
 export default {
   name: "Home",
   components: {
     headerimg,
     titel,
-
-    imggridWizard,
-    videovimeo,
+    paragraph,
+    imggridOptipessi,
+    
     
   },
 };

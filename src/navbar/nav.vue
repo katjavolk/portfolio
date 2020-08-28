@@ -14,7 +14,7 @@
       
 
       <b-navbar-nav>
-        <b-nav-item to="/">Arbeiten</b-nav-item>
+        <b-nav-item to="/">Projekte</b-nav-item>
         <b-nav-item to="/about">Über</b-nav-item>
         <b-nav-item to="/kontakt">Kontakt</b-nav-item>
       </b-navbar-nav>

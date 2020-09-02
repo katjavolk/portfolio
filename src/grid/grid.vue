@@ -106,7 +106,7 @@
         <img
           class="image"
           style="width:100%;  margin:0px;"
-          src="https://www.fressnapf.de/medias/katze-revieranspr-che-580-500.jpg?context=bWFzdGVyfHJvb3R8NTAzNTF8aW1hZ2UvanBlZ3xoZGIvaDNjLzk2NTgxNzIzNDIzMDIuanBnfGRiYTBkNGMwYWI0MWMzYjhmZGZiNmNiM2NlNGY4YzMwZGI4ODlhMTQ5NWU5YTBmNTQ2ZDFlZDU4NTQ4YmNlODk"
+          src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
         />
         <div class="overlay">
           <div style="position:absolute; bottom:8px; left:16px;">hello</div>

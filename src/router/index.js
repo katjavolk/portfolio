@@ -23,7 +23,7 @@ const routes = [
     children: [
       {
         path: '/projects/geometryplus',
-        name: 'gemoetryplus',
+        name: 'geometryplus',
 
         component: () => import('../views/projects/Geometryplus.vue')
       },

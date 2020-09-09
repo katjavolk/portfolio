@@ -12,7 +12,43 @@
         </b-link>
       </b-col>
 
-      <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
+     
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/silentsongs">
+          <img
+            class="image"
+            style="width:100%;  margin:0px;"
+            src="..\assets\img\silentsongs_teaser.jpg"
+          />
+          <div class="overlay">
+            <div class="middlestuff" style="position:absolute;">Silent Songs</div>
+          </div>
+        </b-link>
+      </b-col>
+
+       <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/geometryplus">
+          <img
+            class="image"
+            style="width:100%;  margin:0px;"
+            src="..\assets\img\geometryplus_teaser.jpg"
+          />
+          <div class="overlay">
+            <div class="middlestuff" style="position:absolute;">Geometry+</div>
+          </div>
+        </b-link>
+      </b-col>
+
+      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
+        <b-link to="/projects/horror">
+          <img class="image" style="width:100%;  margin:0px;" src="..\assets\img\horror_teaser.jpg" />
+          <div class="overlay">
+            <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
+          </div>
+        </b-link>
+      </b-col>
+
+       <b-col class="column" style="padding:0px;" lg="4" md="6" sm="12">
         <b-link to="/projects/pigsoninstagram">
           <img
             class="image"
@@ -28,27 +64,6 @@
         </b-link>
       </b-col>
 
-      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-        <b-link to="/projects/silentsongs">
-          <img
-            class="image"
-            style="width:100%;  margin:0px;"
-            src="..\assets\img\silentsongs_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position:absolute;">Silent Songs</div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-        <b-link to="/projects/horror">
-          <img class="image" style="width:100%;  margin:0px;" src="..\assets\img\horror_teaser.jpg" />
-          <div class="overlay">
-            <div class="middlestuff" style="position:absolute;">Geschichte des Horrors</div>
-          </div>
-        </b-link>
-      </b-col>
 
       <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
         <b-link to="/projects/optipessi">
@@ -89,18 +104,7 @@
         </b-link>
       </b-col>
 
-      <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
-        <b-link to="/projects/geometryplus">
-          <img
-            class="image"
-            style="width:100%;  margin:0px;"
-            src="https://img.welt.de/img/kmpkt/mobile191543787/8842508007-ci102l-w1024/Cat-lying-on-bed.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position:absolute;">Geometry+</div>
-          </div>
-        </b-link>
-      </b-col>
+     
 
       <b-col class="column" style="background-color:blue; padding:0px;" lg="4" md="6" sm="12">
         <img

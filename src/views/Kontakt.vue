@@ -1,7 +1,8 @@
 <template>
     <div>
         <b-container style="margin-top:6em; margin-bottom:6em;">
-            <h1 class="h1kontakt">kontakt@katjavolk.de</h1>
+            <h1 class="h1kontakt"> <a style="color:black;" href="mailto:kontakt@katjavolk.de"> kontakt@katjavolk.de </a></h1>
+            
         </b-container>
     
     </div>
@@ -13,6 +14,7 @@
   font-size: 5.8em;
   font-family: Syne-Bold;
   line-height: auto;
+  color:black;
   
 }
 
@@ -37,7 +39,7 @@
 
 @media screen and (max-width: 576px) {
   .h1kontakt {
-    font-size: 2.5em;
+    font-size: 2.2em;
     
   }
 }

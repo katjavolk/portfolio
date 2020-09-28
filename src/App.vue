@@ -34,5 +34,6 @@ export default {
     end,
     home,
   },
+ 
 };
 </script>

@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-    <b-container fluid style="padding:0px;">
-    <navbar />
-
-    <router-view>
-      <home />
-    </router-view>
-
-    <end />
+    <b-container fluid style="padding: 0px">
+      <navbar />
+      <router-view></router-view>
+      <kFooter />
     </b-container>
   </div>
 </template>
@@ -23,17 +19,14 @@ body {
 </style>
 
 <script>
-import navbar from "@/navbar/nav.vue";
-import end from "@/end/end.vue";
-import home from "@/views/Home.vue";
+import navbar from "@/components/navbar.vue";
+import kFooter from "@/components/footer.vue";
 
 export default {
   name: "index",
   components: {
     navbar,
-    end,
-    home,
+    kFooter,
   },
- 
 };
 </script>

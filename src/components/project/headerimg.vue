@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     link() {
-      return require("../assets/img/" +
+      return require("@/assets/img/" +
         this.$route.name.toLowerCase() +
         "_headerimg.jpg");
     },

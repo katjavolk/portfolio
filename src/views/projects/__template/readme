@@ -1,0 +1,4 @@
+a) copy the template folder and rename it 
+b) fill the index.vue with content
+c) add a link in @/router/index.js
+d) place a link whereever you like

@@ -10,8 +10,8 @@
 <script>
 // @ is an alias to /src
 
-import welcome from "@/welcome/welcome.vue";
-import grid from "@/grid/grid.vue";
+import welcome from "./welcome.vue";
+import grid from "./grid.vue";
 
 export default {
   name: "Home",

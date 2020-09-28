@@ -8,13 +8,12 @@
       allowfullscreen
     ></iframe>
   </div>
- 
 </template>
 
 <script>
 export default {
-    props: {
-        video: Number,
-    }
-}
+  props: {
+    video: Number,
+  },
+};
 </script>

@@ -10,7 +10,7 @@
 
 
 <script>
-import headerimg from "@/projekt/headerimg.vue";
+import headerimg from "@/components/project/headerimg.vue";
 
 export default {
   name: "Project",

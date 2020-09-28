@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../views/home/index.vue'
 
 Vue.use(VueRouter)
 
@@ -25,49 +25,49 @@ const routes = [
         path: '/projects/geometryplus',
         name: 'geometryplus',
 
-        component: () => import('../views/projects/Geometryplus.vue')
+        component: () => import('../views/projects/geometryplus/index.vue')
       },
       {
         path: '/projects/horror',
         name: 'horror',
 
-        component: () => import('../views/projects/Horror.vue')
+        component: () => import('../views/projects/horror/index.vue')
       },
       {
         path: '/projects/optipessi',
         name: 'optipessi',
 
-        component: () => import('../views/projects/Optipessi.vue')
+        component: () => import('../views/projects/optipessi/index.vue')
       },
       {
         path: '/projects/pigsoninstagram',
         name: 'pigsoninstagram',
 
-        component: () => import('../views/projects/Pigsoninstagram.vue')
+        component: () => import('../views/projects/pigsoninstagram/index.vue')
       },
       {
         path: '/projects/silentsongs',
         name: 'silentsongs',
 
-        component: () => import('../views/projects/Silentsongs.vue')
+        component: () => import('../views/projects/silentsongs/index.vue')
       },
       {
         path: '/projects/tinkerfestival',
         name: 'tinkerfestival',
 
-        component: () => import('../views/projects/Tinkerfestival.vue')
+        component: () => import('../views/projects/tinkerfestival/index.vue')
       },
       {
         path: '/projects/wabi',
         name: 'wabi',
 
-        component: () => import('../views/projects/Wabi.vue')
+        component: () => import('../views/projects/wabi/index.vue')
       },
       {
         path: '/projects/wizard',
         name: 'wizard',
 
-        component: () => import('../views/projects/Wizard.vue')
+        component: () => import('../views/projects/wizard/index.vue')
       },
     ]
 

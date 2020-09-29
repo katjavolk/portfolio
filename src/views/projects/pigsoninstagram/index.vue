@@ -62,6 +62,69 @@ Sie sind ein Trendhaustier, welches seinem Besitzer Millionen likes garantiert. 
 </template>
    
 
+<style>
+.gallery_pigs {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 1rem;
+}
+
+.gallery_img_pigs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery_item_pigs_1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: 0px;
+}
+
+.gallery_item_pigs_2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: 0px;
+}
+
+.gallery_item_pigs_3 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  margin-bottom: 0px;
+}
+
+.gallery_item_pigs_4 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  margin-bottom: 0px;
+}
+
+.gallery_item_pigs_5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  margin-bottom: 0px;
+}
+
+.gallery_item_pigs_6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  margin-bottom: 0px;
+}
+</style>
 
 <script>
 import titel from "@/components/project/titel.vue";

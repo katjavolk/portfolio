@@ -1,18 +1,19 @@
 <template>
-  <div>
-    <b-row align-h="center" :style="'width: 100%; background-color:'+headerimgbackground">
-      <b-col></b-col>
-      <b-col>
-        <div>
-          <img
-            style=" height: 400px; display:flex;justify-content:center;align-items:center;"
-            :src="link"
-          />
-        </div>
-      </b-col>
-      <b-col></b-col>
-    </b-row>
-  </div>
+  <b-container
+    fluid
+    :style="'width: 100%; background-color:' + headerimgbackground + ';'"
+  >
+    <img
+      style="
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+      class="d-none d-sm-block"
+      :src="link"
+    />
+  </b-container>
 </template>
 
 

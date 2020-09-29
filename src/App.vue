@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <b-container fluid style="padding: 0px">
-      <navbar />
-      <router-view></router-view>
-      <kFooter />
-    </b-container>
+    <navbar />
+    <router-view></router-view>
+    <kFooter />
   </div>
 </template>
 

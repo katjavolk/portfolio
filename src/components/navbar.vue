@@ -1,8 +1,8 @@
 <template >
-  <div>
+  <b-container fluid style="padding-bottom: 0px; margin-bottom: 0px">
     <b-container>
       <b-navbar
-        style="padding-left:0px; padding-right:0px; padding-bottom:0px;"
+        style="padding-left: 0px; padding-right: 0px; padding-bottom: 0px"
         toggleable="lg"
         type="light"
         variant="white"
@@ -23,6 +23,9 @@
         </b-collapse>
       </b-navbar>
     </b-container>
-    <b-container fluid style="background-color:#4885FF; height:6px;v padding:0px;"></b-container>
-  </div>
+    <hr
+      style="background-color: #4885ff; height: 6px; padding: 0px 0px 0px 0px;"
+      class="d-block"
+    />
+  </b-container>
 </template>

@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <b-container>
+    <b-container fluid>
       <titel headline="Geschichte des Horrors" />
       <paragraph paragraph="Gruselgeschichten sind so alt wie die Menschheit selbst. Auf 72 Seiten wird diese Historie und
 wichtige Persönlichkeiten des Genres in verschiedenen Medien vorgestellt.
@@ -44,7 +43,6 @@ Das Buch behandelt außerdem die Frage wo unsere Lust zum Gruseln überhaupt her
         </div>
       </template>
     </b-container>
-  </div>
 </template>
 
 

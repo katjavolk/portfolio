@@ -4,9 +4,10 @@
       <b-row>
         <b-col lg="5" md="8" style="padding: 0px">
           <p class="fliesstext">
-            Das ist mein Projekt kuck mal wie toll es ist schau dir schöne bilder dazu an.
-            ja.
+            {{paragraph}}
           </p>
+          
+
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -51,3 +52,13 @@
   }
 }
 </style>
+
+
+<script>
+export default {
+  props: {
+    paragraph: String,
+    
+  },
+};
+</script>

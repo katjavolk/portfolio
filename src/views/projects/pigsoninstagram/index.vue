@@ -2,9 +2,13 @@
   <div>
     <b-container>
       <titel headline="Why are there so many pigs on instagram?" />
+      <paragraph paragraph="Sie haben Hunderttausende Abonnenten. Mehr als du auf jeden Fall.
+Teacup Pigs.
+Es gibt zahllose dieser Schweinchen auf instagram. In zuckersüßen Outfits halten sie ihre Schnauze in die Kamera. Und sind sie nicht einfach umwerfend mit der Mütze auf dem Kopf?
+Sie sind ein Trendhaustier, welches seinem Besitzer Millionen likes garantiert. Zwischen den vielen Blume, Schleifen, Kleidchen und glitzernden Accessoires lässt sich nicht immer sagen wer hier insziniert wird." />
+       
       <kVideo :video="videoid" />
-      <paragraph />
-      <template>
+      
         <div style="margin-top:60px;">
           <div class="gallery_pigs">
             <figure class="gallery_item_pigs_1" style="background-color:red;">
@@ -51,7 +55,8 @@
             </figure>
           </div>
         </div>
-      </template>
+        
+     
     </b-container>
   </div>
 </template>

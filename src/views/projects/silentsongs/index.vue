@@ -2,8 +2,17 @@
   <div>
     <b-container>
       <titel headline="Silent songs" subheadline="Lieder aus Licht" />
-      <paragraph />
-      <template>
+      <paragraph paragraph="Licht ist für uns eine Selbstverständlichkeit. Seine
+Funktionalität im Alltag und in der Technik macht
+es uns leicht, seine einfache Schönheit zu übersehen.
+Licht ist faszinierend. Nicht nur physisch,
+sondern auch visuell. Silent songs verwendet Licht
+als Medium. Kleine, interaktive Leuchtkästen
+schaffen einen sinnlichen Moment, in dem sich die
+BetrachterInnen auf das Licht konzentrieren können.
+Dadurch werden Bilder auf ihre ganz eigene
+Weise gezeichnet."/>
+     
         <div style="margin-top:60px;">
           <div class="gallery_silentsongs">
             <figure class="gallery_item_silentsongs_1">
@@ -125,7 +134,7 @@
             </figure>
           </div>
         </div>
-      </template>
+    
     </b-container>
   </div>
 </template>

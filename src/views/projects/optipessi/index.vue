@@ -2,8 +2,12 @@
   <div>
     <b-container>
       <titel headline="Optimist:Pessimist" />
-      <paragraph />
-      <template>
+      <paragraph paragraph="Dieses interaktive Plakat soll einem gewöhnlich
+starren Medium die Möglichkeit geben
+mehr als nur eine unveränderbare Aussage zu
+haben. Per Knopfdruck lässt es sich auf die
+persönliche Einstellung des Betrachters ändern."/>
+      
         <div style="margin-top:60px;">
           <div class="gallery_optipessi">
             <figure class="gallery_item_optipessi_1" style="background-color:red;">
@@ -36,7 +40,7 @@
             </figure>
           </div>
         </div>
-      </template>
+      
     </b-container>
   </div>
 </template>

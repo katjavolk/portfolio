@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
+
+  <div >
     <b-container style="margin-top:6em;">
       <b-row style="width:100%; margin:auto;">
         <b-col lg="5" md="8" style="padding:0px;">

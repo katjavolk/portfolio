@@ -10,28 +10,28 @@ persönliche Einstellung des Betrachters ändern."/>
       
         <div style="margin-top:60px;">
           <div class="gallery_optipessi">
-            <figure class="gallery_item_optipessi_1" style="background-color:red;">
+            <figure class="gallery_item_optipessi_1" >
               <img
                 src="@/assets/img/optipessi_1.jpg"
                 alt="Gallery image 2"
                 class="gallery_img_optipessi"
               />
             </figure>
-            <figure class="gallery_item_optipessi_2" style="background-color:green;">
+            <figure class="gallery_item_optipessi_2" >
               <img
                 src="@/assets/img/optipessi_7.jpg"
                 alt="Gallery image 3"
                 class="gallery_img_optipessi"
               />
             </figure>
-            <figure class="gallery_item_optipessi_3" style="background-color:purple;">
+            <figure class="gallery_item_optipessi_3" >
               <img
                 src="@/assets/img/optipessi_2.jpg"
                 alt="Gallery image 4"
                 class="gallery_img_optipessi"
               />
             </figure>
-            <figure class="gallery_item_optipessi_4" style="background-color:blue;">
+            <figure class="gallery_item_optipessi_4" >
               <img
                 src="@/assets/img/optipessi_6.jpg"
                 alt="Gallery image 5"

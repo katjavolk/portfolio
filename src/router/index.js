@@ -69,6 +69,12 @@ const routes = [
 
         component: () => import('../views/projects/wizard/index.vue')
       },
+      {
+        path: '/projects/pretzelprinter',
+        name: 'pretzelprinter',
+
+        component: () => import('../views/projects/pretzelprinter/index.vue')
+      },
     ]
 
   },

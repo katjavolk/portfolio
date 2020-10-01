@@ -126,7 +126,7 @@
           <img
             class="image"
             style="width: 100%; height: auto; margin: 0px"
-            src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
+            src="@/assets/img/wabiphone_teaser.jpg"
           />
           <div class="overlay">
             <div class="middlestuff" style="position: absolute">Wabi Phone</div>
@@ -162,14 +162,18 @@
         md="6"
         sm="12"
       >
+      <b-link to="/projects/pretzelprinter">
         <img
           class="image"
           style="width: 100%; margin: 0px"
-          src="https://img.welt.de/img/wissenschaft/mobile207683351/6692508197-ci102l-w1024/Hauskatze.jpg"
+          src="@/assets/img/pretzelprinter_teaser.jpg"
         />
         <div class="overlay">
-          <div style="position: absolute; bottom: 8px; left: 16px">hello</div>
+          <div class="middlestuff" style="postiion: absolute">
+            pretzelprinter Logo
+          </div>
         </div>
+        </b-link>
       </b-col>
     </b-row>
   </div>

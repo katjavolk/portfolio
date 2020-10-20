@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-containter>
+    <b-container>
       <titel headline="Wabi Phone" subheadline="Es fühlt wie du" />
       <paragraph
         paragraph="Wie wäre es wenn unsere Geräte Gefühle hätten?
@@ -61,7 +61,7 @@ empathischer mit unseren Geräten umzugehen."
         </div>
       </div>
  
-    </b-containter>
+    </b-container>
   </div>
 </template>
 

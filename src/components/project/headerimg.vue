@@ -1,11 +1,9 @@
 <template>
-  <b-container
-    fluid
-    :style="'width: 100%; background-color:' + headerimgbackground + ';'"
-  >
+  <div style="width: 100%; margin-top: -0.9%; padding-top:0px;">
     <img
       style="
         height: 400px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -13,7 +11,7 @@
       class="d-none d-sm-block"
       :src="link"
     />
-  </b-container>
+  </div>
 </template>
 
 

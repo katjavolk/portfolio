@@ -1,9 +1,8 @@
 <template>
-  <b-container fluid>
-    <headerimg headerimgbackground="white" />
-
+  <div>
+    <headerimg headerimgbackground="black" />
     <router-view />
-  </b-container>
+  </div>
 </template>
 
 

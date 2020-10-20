@@ -2,61 +2,61 @@
   <div>
     <b-container>
       <titel headline="Why are there so many pigs on instagram?" />
-      <paragraph paragraph="Sie haben Hunderttausende Abonnenten. Mehr als du auf jeden Fall.
+      <paragraph
+        paragraph="Sie haben Hunderttausende Abonnenten. Mehr als du auf jeden Fall.
 Teacup Pigs.
 Es gibt zahllose dieser Schweinchen auf instagram. In zuckersüßen Outfits halten sie ihre Schnauze in die Kamera. Und sind sie nicht einfach umwerfend mit der Mütze auf dem Kopf?
-Sie sind ein Trendhaustier, welches seinem Besitzer Millionen likes garantiert. Zwischen den vielen Blume, Schleifen, Kleidchen und glitzernden Accessoires lässt sich nicht immer sagen wer hier insziniert wird." />
-       
+Sie sind ein Trendhaustier, welches seinem Besitzer Millionen likes garantiert. Zwischen den vielen Blume, Schleifen, Kleidchen und glitzernden Accessoires lässt sich nicht immer sagen wer hier insziniert wird."
+      />
+
       <kVideo :video="videoid" />
-      
-        <div style="margin-top:60px;">
-          <div class="gallery_pigs">
-            <figure class="gallery_item_pigs_1" >
-              <img
-                src="@/assets/img/pigsoninstagram_1.png"
-                alt="Gallery image 1"
-                class="gallery_img_pigs"
-              />
-            </figure>
-            <figure class="gallery_item_pigs_2" >
-              <img
-                src="@/assets/img/pigsoninstagram_2.png"
-                alt="Gallery image 2"
-                class="gallery_img_pigs"
-              />
-            </figure>
-            <figure class="gallery_item_pigs_3" >
-              <img
-                src="@/assets/img/pigsoninstagram_3.png"
-                alt="Gallery image 3"
-                class="gallery_img_pigs"
-              />
-            </figure>
-            <figure class="gallery_item_pigs_4" >
-              <img
-                src="@/assets/img/pigsoninstagram_4.png"
-                alt="Gallery image 4"
-                class="gallery_img_pigs"
-              />
-            </figure>
-            <figure class="gallery_item_pigs_5" >
-              <img
-                src="@/assets/img/pigsoninstagram_5.png"
-                alt="Gallery image 5"
-                class="gallery_img_pigs"
-              />
-            </figure>
-            <figure class="gallery_item_pigs_6" >
-              <img
-                src="@/assets/img/pigsoninstagram_6.png"
-                alt="Gallery image 6"
-                class="gallery_img_pigs"
-              />
-            </figure>
-          </div>
+
+      <div style="margin-top: 60px">
+        <div class="gallery_pigs">
+          <figure class="gallery_item_pigs_1">
+            <img
+              src="@/assets/img/pigsoninstagram_1.png"
+              alt="Gallery image 1"
+              class="gallery_img_pigs"
+            />
+          </figure>
+          <figure class="gallery_item_pigs_2">
+            <img
+              src="@/assets/img/pigsoninstagram_2.png"
+              alt="Gallery image 2"
+              class="gallery_img_pigs"
+            />
+          </figure>
+          <figure class="gallery_item_pigs_3">
+            <img
+              src="@/assets/img/pigsoninstagram_3.png"
+              alt="Gallery image 3"
+              class="gallery_img_pigs"
+            />
+          </figure>
+          <figure class="gallery_item_pigs_4">
+            <img
+              src="@/assets/img/pigsoninstagram_4.png"
+              alt="Gallery image 4"
+              class="gallery_img_pigs"
+            />
+          </figure>
+          <figure class="gallery_item_pigs_5">
+            <img
+              src="@/assets/img/pigsoninstagram_5.png"
+              alt="Gallery image 5"
+              class="gallery_img_pigs"
+            />
+          </figure>
+          <figure class="gallery_item_pigs_6">
+            <img
+              src="@/assets/img/pigsoninstagram_6.png"
+              alt="Gallery image 6"
+              class="gallery_img_pigs"
+            />
+          </figure>
         </div>
-        
-     
+      </div>
     </b-container>
   </div>
 </template>

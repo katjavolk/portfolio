@@ -1,6 +1,9 @@
 <template>
   <b-container fluid>
-    <titel headline="Geschichte des Horrors" />
+    <titel>
+        <template #title>Geschichte des Horrors</template>
+       
+      </titel>
     <paragraph>
       Gruselgeschichten sind so alt wie die Menschheit selbst. Auf 72 Seiten
       wird diese Historie und wichtige Persönlichkeiten des Genres in

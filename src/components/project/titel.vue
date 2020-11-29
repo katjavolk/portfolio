@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="h1size">{{headline}}</h1>
+    <h1 class="h1size"><slot name="title"></slot></h1>
 
-    <h2 class="h2size">{{subheadline}}</h2>
+    <h2 class="h2size"><slot name="subtitle"></slot></h2>
   </div>
 </template>
 

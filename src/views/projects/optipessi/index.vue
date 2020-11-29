@@ -1,7 +1,11 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Optimist:Pessimist" />
+
+      <titel>
+        <template #title>Optimist:Pessimist</template>
+       
+      </titel>
       <paragraph
         >Dieses interaktive Plakat soll einem gewöhnlich starren Medium die
         Möglichkeit geben mehr als nur eine unveränderbare Aussage zu haben. Per

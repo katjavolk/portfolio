@@ -1,7 +1,10 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Silent songs" subheadline="Lieder aus Licht" />
+      <titel>
+        <template #title>Silent songs</template>
+        <template #subtitle>Lieder aus Licht</template>
+      </titel>
       <paragraph
         >Licht ist für uns eine Selbstverständlichkeit. Seine Funktionalität im
         Alltag und in der Technik macht es uns leicht, seine einfache Schönheit

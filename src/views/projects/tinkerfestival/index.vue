@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-container>
-      <titel
-        headline="Tinkerfestival"
-        subheadline="Hackathon 30.11.-01.12.2019 Würzburg"
-      />
+      <titel>
+        <template #title>Tinkerfestival</template>
+        <template #subtitle>Hackathon 30.11.-01.12.2019 Würzburg</template>
+      </titel>
       <paragraph
         >Ein Wochenende lang gemeinsam Ideen entwickeln, tüfteln und Visionen
         für die Stadt der Zukunft austauschen. Während des Tinkerfestivals kamen

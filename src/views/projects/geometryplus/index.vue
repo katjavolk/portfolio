@@ -1,7 +1,10 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Geometry+" />
+      <titel>
+        <template #title>Geometry+</template>
+        
+      </titel>
       <paragraph>
         Geometry+ ist eine Sammlung von Grafiken, die zu unterschiedlichen
         Themen mit Geometrie als Werkzeug erstellt wurden. Die Geometrie

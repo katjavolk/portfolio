@@ -1,7 +1,10 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Why are there so many pigs on instagram?" />
+      <titel>
+        <template #title>Why are there so many pigs on instagram?</template>
+        
+      </titel>
       <paragraph
         >Sie haben Hunderttausende Abonnenten. Mehr als du auf jeden Fall.
         Teacup Pigs. Es gibt zahllose dieser Schweinchen auf instagram. In

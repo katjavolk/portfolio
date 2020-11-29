@@ -1,7 +1,10 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Wabi Phone" subheadline="Es fühlt wie du" />
+      <titel>
+        <template #title>Wabi Phone</template>
+        <template #subtitle>Es fühlt wie du</template>
+      </titel>
       <paragraph
         >Wie wäre es wenn unsere Geräte Gefühle hätten? Wie würden sie diese mit
         uns Kommunizieren? Wie würden wir damit umgehen müssen? Genau diese

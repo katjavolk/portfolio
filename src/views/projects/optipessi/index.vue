@@ -2,45 +2,45 @@
   <div>
     <b-container>
       <titel headline="Optimist:Pessimist" />
-      <paragraph paragraph="Dieses interaktive Plakat soll einem gewöhnlich
-starren Medium die Möglichkeit geben
-mehr als nur eine unveränderbare Aussage zu
-haben. Per Knopfdruck lässt es sich auf die
-persönliche Einstellung des Betrachters ändern."/>
-      
-        <div style="margin-top:60px;">
-          <div class="gallery_optipessi">
-            <figure class="gallery_item_optipessi_1" >
-              <img
-                src="@/assets/img/optipessi_1.jpg"
-                alt="Gallery image 2"
-                class="gallery_img_optipessi"
-              />
-            </figure>
-            <figure class="gallery_item_optipessi_2" >
-              <img
-                src="@/assets/img/optipessi_7.jpg"
-                alt="Gallery image 3"
-                class="gallery_img_optipessi"
-              />
-            </figure>
-            <figure class="gallery_item_optipessi_3" >
-              <img
-                src="@/assets/img/optipessi_2.jpg"
-                alt="Gallery image 4"
-                class="gallery_img_optipessi"
-              />
-            </figure>
-            <figure class="gallery_item_optipessi_4" >
-              <img
-                src="@/assets/img/optipessi_6.jpg"
-                alt="Gallery image 5"
-                class="gallery_img_optipessi"
-              />
-            </figure>
-          </div>
+      <paragraph
+        >Dieses interaktive Plakat soll einem gewöhnlich starren Medium die
+        Möglichkeit geben mehr als nur eine unveränderbare Aussage zu haben. Per
+        Knopfdruck lässt es sich auf die persönliche Einstellung des Betrachters
+        ändern.</paragraph
+      >
+
+      <div style="margin-top: 60px">
+        <div class="gallery_optipessi">
+          <figure class="gallery_item_optipessi_1">
+            <img
+              src="@/assets/img/optipessi_1.jpg"
+              alt="Gallery image 2"
+              class="gallery_img_optipessi"
+            />
+          </figure>
+          <figure class="gallery_item_optipessi_2">
+            <img
+              src="@/assets/img/optipessi_7.jpg"
+              alt="Gallery image 3"
+              class="gallery_img_optipessi"
+            />
+          </figure>
+          <figure class="gallery_item_optipessi_3">
+            <img
+              src="@/assets/img/optipessi_2.jpg"
+              alt="Gallery image 4"
+              class="gallery_img_optipessi"
+            />
+          </figure>
+          <figure class="gallery_item_optipessi_4">
+            <img
+              src="@/assets/img/optipessi_6.jpg"
+              alt="Gallery image 5"
+              class="gallery_img_optipessi"
+            />
+          </figure>
         </div>
-      
+      </div>
     </b-container>
   </div>
 </template>

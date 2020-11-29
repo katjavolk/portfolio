@@ -3,15 +3,12 @@
     <b-container>
       <titel headline="Wabi Phone" subheadline="Es fühlt wie du" />
       <paragraph
-        paragraph="Wie wäre es wenn unsere Geräte Gefühle hätten?
-Wie würden sie diese mit uns Kommunizieren?
-Wie würden wir damit umgehen müssen?
-Genau diese Fragen behandelt das Wabi Phone.
-Ein Konzept für ein Smartphone, welches fühlt und
-seine Emotionen ausdrückt und uns dazu bringt
-empathischer mit unseren Geräten umzugehen."
-      />
-
+        >Wie wäre es wenn unsere Geräte Gefühle hätten? Wie würden sie diese mit
+        uns Kommunizieren? Wie würden wir damit umgehen müssen? Genau diese
+        Fragen behandelt das Wabi Phone. Ein Konzept für ein Smartphone, welches
+        fühlt und seine Emotionen ausdrückt und uns dazu bringt empathischer mit
+        unseren Geräten umzugehen.
+      </paragraph>
 
       <div style="margin-top: 60px">
         <div class="gallery_wabi">
@@ -60,7 +57,6 @@ empathischer mit unseren Geräten umzugehen."
           </figure>
         </div>
       </div>
- 
     </b-container>
   </div>
 </template>

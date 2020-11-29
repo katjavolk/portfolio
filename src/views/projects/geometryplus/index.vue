@@ -2,12 +2,21 @@
   <div>
     <b-container>
       <titel headline="Geometry+" />
-      <paragraph
-        paragraph="Geometry+ ist eine Sammlung von Grafiken, die zu unterschiedlichen Themen mit Geometrie als Werkzeug erstellt wurden.
-Die Geometrie beschäftigt sich mit Figuren in der Ebene, dem Messen und Berechnen von Längen, Abständen, Flächen und Winkel. Entscheidend ist, dass nicht freihand gezeichnet wird. Alles ist abgemessen, berechnet oder hat einen festen Punkt im Koordinatensystem.
-Genau dieses Prinzip wurde für die Grafiken von Geometry + angewendet. Die Grafiken sind konstruiert, die Längen und Größen von Strecken und Flächen voneinander und von Informationen abhänig.
-Auch wenn alle Grafiken auf Informatonen und Daten der Themen basieren, stehen die Grafiken und nicht die Informationsvermittlung im Vordergrund. Wichtiger ist, wie mit Hilfe von Geometrie unterschiedlichste Bilder aus Daten entstehen können."
-      />
+      <paragraph>
+        Geometry+ ist eine Sammlung von Grafiken, die zu unterschiedlichen
+        Themen mit Geometrie als Werkzeug erstellt wurden. Die Geometrie
+        beschäftigt sich mit Figuren in der Ebene, dem Messen und Berechnen von
+        Längen, Abständen, Flächen und Winkel. Entscheidend ist, dass nicht
+        freihand gezeichnet wird. Alles ist abgemessen, berechnet oder hat einen
+        festen Punkt im Koordinatensystem. Genau dieses Prinzip wurde für die
+        Grafiken von Geometry + angewendet. Die Grafiken sind konstruiert, die
+        Längen und Größen von Strecken und Flächen voneinander und von
+        Informationen abhänig. Auch wenn alle Grafiken auf Informatonen und
+        Daten der Themen basieren, stehen die Grafiken und nicht die
+        Informationsvermittlung im Vordergrund. Wichtiger ist, wie mit Hilfe von
+        Geometrie unterschiedlichste Bilder aus Daten entstehen
+        können.</paragraph
+      >
       <template>
         <div style="margin-top: 60px">
           <div class="gallery_geometry">

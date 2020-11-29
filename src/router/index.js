@@ -24,55 +24,55 @@ const routes = [
       {
         path: '/projects/geometryplus',
         name: 'geometryplus',
-
+        title: 'Geometry+',
         component: () => import('../views/projects/geometryplus/index.vue')
       },
       {
         path: '/projects/horror',
         name: 'horror',
-
+        title: 'Geschichte des Horrors',
         component: () => import('../views/projects/horror/index.vue')
       },
       {
         path: '/projects/optipessi',
         name: 'optipessi',
-
+        title: 'Optimist:Pessimist',
         component: () => import('../views/projects/optipessi/index.vue')
       },
       {
         path: '/projects/pigsoninstagram',
         name: 'pigsoninstagram',
-
+        title: 'Pigs on Instagram',
         component: () => import('../views/projects/pigsoninstagram/index.vue')
       },
       {
         path: '/projects/silentsongs',
         name: 'silentsongs',
-
+        title: 'Silent Songs',
         component: () => import('../views/projects/silentsongs/index.vue')
       },
       {
         path: '/projects/tinkerfestival',
         name: 'tinkerfestival',
-
+        title: 'Tinkerfestival',
         component: () => import('../views/projects/tinkerfestival/index.vue')
       },
       {
         path: '/projects/wabi',
         name: 'wabi',
-
+        title: 'Wabi Phone',
         component: () => import('../views/projects/wabi/index.vue')
       },
       {
         path: '/projects/wizard',
         name: 'wizard',
-
+        title: 'Clod, the weather wizard',
         component: () => import('../views/projects/wizard/index.vue')
       },
       {
         path: '/projects/pretzelprinter',
         name: 'pretzelprinter',
-
+        title: 'Pretzelprinter',
         component: () => import('../views/projects/pretzelprinter/index.vue')
       },
     ]

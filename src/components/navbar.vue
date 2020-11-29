@@ -13,9 +13,17 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto" fill>
             <b-navbar-nav>
-              <b-nav-item to="/">Projekte</b-nav-item>
+              <!--              <b-nav-item to="/">Projekte</b-nav-item> -->
               <b-nav-item to="/about">Über</b-nav-item>
               <b-nav-item to="/kontakt">Kontakt</b-nav-item>
+              <b-nav-item-dropdown to="/" text="Projekte" right>
+                <b-dropdown-item
+                  v-for="link in $router.options.routes[2].children"
+                  :key="link.name"
+                  :to="link.path"
+                  >{{ link.title }}</b-dropdown-item
+                >
+              </b-nav-item-dropdown>
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>

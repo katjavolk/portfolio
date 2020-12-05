@@ -1,48 +1,78 @@
 <template>
-    <b-container fluid>
-      <titel headline="Geschichte des Horrors" />
-      <paragraph paragraph="Gruselgeschichten sind so alt wie die Menschheit selbst. Auf 72 Seiten wird diese Historie und
-wichtige Persönlichkeiten des Genres in verschiedenen Medien vorgestellt.
-Das Buch behandelt außerdem die Frage wo unsere Lust zum Gruseln überhaupt herkommt."/>
-      <template>
-        <div style="margin-top:60px;">
-          <div class="gallery_horror">
-            <figure class="gallery_item_horror_1">
-              <img src="@/assets/img/horror_2.jpg" alt="Gallery image 1" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_2">
-              <img src="@/assets/img/horror_5.jpg" alt="Gallery image 2" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_3">
-              <img src="@/assets/img/horror_1.jpg" alt="Gallery image 3" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_4">
-              <img
-                src="@/assets/img/horror_10.jpg"
-                alt="Gallery image 4"
-                class="gallery_img_horror"
-              />
-            </figure>
-            <figure class="gallery_item_horror_5">
-              <img src="@/assets/img/horror_4.jpg" alt="Gallery image 5" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_6">
-              <img src="@/assets/img/horror_3.jpg" alt="Gallery image 6" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_7">
-              <img src="@/assets/img/horror_6.jpg" alt="Gallery image 7" class="gallery_img_horror" />
-            </figure>
-            <figure class="gallery_item_horror_8">
-              <img
-                src="@/assets/img/horror_10.jpg"
-                alt="Gallery image 8"
-                class="gallery_img_horror"
-              />
-            </figure>
-          </div>
+  <b-container fluid>
+    <titel>
+        <template #title>Geschichte des Horrors</template>
+       
+      </titel>
+    <paragraph>
+      Gruselgeschichten sind so alt wie die Menschheit selbst. Auf 72 Seiten
+      wird diese Historie und wichtige Persönlichkeiten des Genres in
+      verschiedenen Medien vorgestellt. Das Buch behandelt außerdem die Frage wo
+      unsere Lust zum Gruseln überhaupt herkommt.</paragraph
+    >
+    <template>
+      <div style="margin-top: 60px">
+        <div class="gallery_horror">
+          <figure class="gallery_item_horror_1">
+            <img
+              src="@/assets/img/horror_2.jpg"
+              alt="Gallery image 1"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_2">
+            <img
+              src="@/assets/img/horror_5.jpg"
+              alt="Gallery image 2"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_3">
+            <img
+              src="@/assets/img/horror_1.jpg"
+              alt="Gallery image 3"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_4">
+            <img
+              src="@/assets/img/horror_10.jpg"
+              alt="Gallery image 4"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_5">
+            <img
+              src="@/assets/img/horror_4.jpg"
+              alt="Gallery image 5"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_6">
+            <img
+              src="@/assets/img/horror_3.jpg"
+              alt="Gallery image 6"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_7">
+            <img
+              src="@/assets/img/horror_6.jpg"
+              alt="Gallery image 7"
+              class="gallery_img_horror"
+            />
+          </figure>
+          <figure class="gallery_item_horror_8">
+            <img
+              src="@/assets/img/horror_10.jpg"
+              alt="Gallery image 8"
+              class="gallery_img_horror"
+            />
+          </figure>
         </div>
-      </template>
-    </b-container>
+      </div>
+    </template>
+  </b-container>
 </template>
 
 

@@ -1,56 +1,60 @@
 <template>
-<div>
-  <b-container>
+  <div>
+    <b-container>
+      <titel>
+        <template #title>Tinkerfestival</template>
+        <template #subtitle>Hackathon 30.11.-01.12.2019 Würzburg</template>
+      </titel>
+      <paragraph
+        >Ein Wochenende lang gemeinsam Ideen entwickeln, tüfteln und Visionen
+        für die Stadt der Zukunft austauschen. Während des Tinkerfestivals kamen
+        Menschen aus den unterschiedlichsten Bereichen zusammen, um ihre Ideen
+        für unser Zusammenleben, Verkehr und Gesellschaft zu vereinen und an
+        Konzepten zu diesen zu arbeiten. Für diese Veranstaltung entstand dieses
+        Design für Web und Print.
+      </paragraph>
 
-  <titel headline="Tinkerfestival" subheadline="Hackathon 30.11.-01.12.2019 Würzburg" />
-      <paragraph paragraph="Ein Wochenende lang gemeinsam Ideen entwickeln, tüfteln und Visionen für die Stadt der Zukunft austauschen. Während des Tinkerfestivals kamen Menschen aus den unterschiedlichsten Bereichen zusammen,
-      um ihre Ideen für unser Zusammenleben, Verkehr und Gesellschaft zu vereinen und an Konzepten zu diesen zu arbeiten.
-      Für diese Veranstaltung entstand dieses Design für Web und Print."/>
-
-
-      
-        <div style="margin-top:60px;">
-          <div class="gallery_tinkerfestival">
-            <figure class="gallery_item_tinkerfestival_1">
-              <img
-                src="@/assets/img/tinkerfestival_1.jpg"
-                alt="Gallery image 2"
-                class="gallery_img_tinkerfestival"
-              />
-            </figure>
-            <figure class="gallery_item_tinkerfestival_2" >
-              <img
-                src="@/assets/img/tinkerfestival_2.jpg"
-                alt="Gallery image 3"
-                class="gallery_img_tinkerfestival"
-              />
-            </figure>
-            <figure class="gallery_item_tinkerfestival_3">
-              <img
-                src="@/assets/img/tinkerfestival_3.jpg"
-                alt="Gallery image 4"
-                class="gallery_img_tinkerfestival"
-              />
-            </figure>
-            <figure class="gallery_item_tinkerfestival_4" >
-              <img
-                src="@/assets/img/tinkerfestival_5.jpg"
-                alt="Gallery image 5"
-                class="gallery_img_tinkerfestival"
-              />
-            </figure>
-             <figure class="gallery_item_tinkerfestival_5" >
-              <img
-                src="@/assets/img/tinkerfestival_4.jpg"
-                alt="Gallery image 5"
-                class="gallery_img_tinkerfestival"
-              />
-            </figure>
-          </div>
+      <div style="margin-top: 60px">
+        <div class="gallery_tinkerfestival">
+          <figure class="gallery_item_tinkerfestival_1">
+            <img
+              src="@/assets/img/tinkerfestival_1.jpg"
+              alt="Gallery image 2"
+              class="gallery_img_tinkerfestival"
+            />
+          </figure>
+          <figure class="gallery_item_tinkerfestival_2">
+            <img
+              src="@/assets/img/tinkerfestival_2.jpg"
+              alt="Gallery image 3"
+              class="gallery_img_tinkerfestival"
+            />
+          </figure>
+          <figure class="gallery_item_tinkerfestival_3">
+            <img
+              src="@/assets/img/tinkerfestival_3.jpg"
+              alt="Gallery image 4"
+              class="gallery_img_tinkerfestival"
+            />
+          </figure>
+          <figure class="gallery_item_tinkerfestival_4">
+            <img
+              src="@/assets/img/tinkerfestival_5.jpg"
+              alt="Gallery image 5"
+              class="gallery_img_tinkerfestival"
+            />
+          </figure>
+          <figure class="gallery_item_tinkerfestival_5">
+            <img
+              src="@/assets/img/tinkerfestival_4.jpg"
+              alt="Gallery image 5"
+              class="gallery_img_tinkerfestival"
+            />
+          </figure>
         </div>
-
-  </b-container>
-</div>
+      </div>
+    </b-container>
+  </div>
 </template>
 
 <style>

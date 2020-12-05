@@ -1,140 +1,141 @@
 <template>
   <div>
     <b-container>
-      <titel headline="Silent songs" subheadline="Lieder aus Licht" />
-      <paragraph paragraph="Licht ist für uns eine Selbstverständlichkeit. Seine
-Funktionalität im Alltag und in der Technik macht
-es uns leicht, seine einfache Schönheit zu übersehen.
-Licht ist faszinierend. Nicht nur physisch,
-sondern auch visuell. Silent songs verwendet Licht
-als Medium. Kleine, interaktive Leuchtkästen
-schaffen einen sinnlichen Moment, in dem sich die
-BetrachterInnen auf das Licht konzentrieren können.
-Dadurch werden Bilder auf ihre ganz eigene
-Weise gezeichnet."/>
-     
-        <div style="margin-top:60px;">
-          <div class="gallery_silentsongs">
-            <figure class="gallery_item_silentsongs_1">
-              <img
-                src="@/assets/img/silentsongs_1.jpg"
-                alt="Gallery image 1"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_2">
-              <img
-                src="@/assets/img/silentsongs_2.jpg"
-                alt="Gallery image 2"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
+      <titel>
+        <template #title>Silent songs</template>
+        <template #subtitle>Lieder aus Licht</template>
+      </titel>
+      <paragraph
+        >Licht ist für uns eine Selbstverständlichkeit. Seine Funktionalität im
+        Alltag und in der Technik macht es uns leicht, seine einfache Schönheit
+        zu übersehen. Licht ist faszinierend. Nicht nur physisch, sondern auch
+        visuell. Silent songs verwendet Licht als Medium. Kleine, interaktive
+        Leuchtkästen schaffen einen sinnlichen Moment, in dem sich die
+        BetrachterInnen auf das Licht konzentrieren können. Dadurch werden
+        Bilder auf ihre ganz eigene Weise gezeichnet.</paragraph
+      >
 
-            <figure class="gallery_item_silentsongs_3">
-              <img
-                src="@/assets/img/silentsongs_fyall.jpg"
-                alt="Gallery image 3"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_4">
-              <img
-                src="@/assets/img/silentsongs_3.jpg"
-                alt="Gallery image 4"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_5">
-              <img
-                src="@/assets/img/silentsongs_4.jpg"
-                alt="Gallery image 5"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
+      <div style="margin-top: 60px">
+        <div class="gallery_silentsongs">
+          <figure class="gallery_item_silentsongs_1">
+            <img
+              src="@/assets/img/silentsongs_1.jpg"
+              alt="Gallery image 1"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_2">
+            <img
+              src="@/assets/img/silentsongs_2.jpg"
+              alt="Gallery image 2"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
 
-            <figure class="gallery_item_silentsongs_6">
-              <img
-                src="@/assets/img/silentsongs_ogha.jpg"
-                alt="Gallery image 6"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_7">
-              <img
-                src="@/assets/img/silentsongs_6.jpg"
-                alt="Gallery image 7"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_8">
-              <img
-                src="@/assets/img/silentsongs_5.jpg"
-                alt="Gallery image 8"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
+          <figure class="gallery_item_silentsongs_3">
+            <img
+              src="@/assets/img/silentsongs_fyall.jpg"
+              alt="Gallery image 3"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_4">
+            <img
+              src="@/assets/img/silentsongs_3.jpg"
+              alt="Gallery image 4"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_5">
+            <img
+              src="@/assets/img/silentsongs_4.jpg"
+              alt="Gallery image 5"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
 
-            <figure class="gallery_item_silentsongs_9">
-              <img
-                src="@/assets/img/silentsongs_lioa.jpg"
-                alt="Gallery image 6"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_10">
-              <img
-                src="@/assets/img/silentsongs_7.jpg"
-                alt="Gallery image 7"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_11">
-              <img
-                src="@/assets/img/silentsongs_8.jpg"
-                alt="Gallery image 8"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
+          <figure class="gallery_item_silentsongs_6">
+            <img
+              src="@/assets/img/silentsongs_ogha.jpg"
+              alt="Gallery image 6"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_7">
+            <img
+              src="@/assets/img/silentsongs_6.jpg"
+              alt="Gallery image 7"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_8">
+            <img
+              src="@/assets/img/silentsongs_5.jpg"
+              alt="Gallery image 8"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
 
-            <figure class="gallery_item_silentsongs_12">
-              <img
-                src="@/assets/img/silentsongs_reykr.jpg"
-                alt="Gallery image 6"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_13">
-              <img
-                src="@/assets/img/silentsongs_7.jpg"
-                alt="Gallery image 7"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_14">
-              <img
-                src="@/assets/img/silentsongs_8.jpg"
-                alt="Gallery image 8"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
+          <figure class="gallery_item_silentsongs_9">
+            <img
+              src="@/assets/img/silentsongs_lioa.jpg"
+              alt="Gallery image 6"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_10">
+            <img
+              src="@/assets/img/silentsongs_7.jpg"
+              alt="Gallery image 7"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_11">
+            <img
+              src="@/assets/img/silentsongs_8.jpg"
+              alt="Gallery image 8"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
 
-            <figure class="gallery_item_silentsongs_15">
-              <img
-                src="@/assets/img/silentsongs_9.jpg"
-                alt="Gallery image 1"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-            <figure class="gallery_item_silentsongs_16">
-              <img
-                src="@/assets/img/silentsongs_10.jpg"
-                alt="Gallery image 2"
-                class="gallery_img_silentsongs"
-              />
-            </figure>
-          </div>
+          <figure class="gallery_item_silentsongs_12">
+            <img
+              src="@/assets/img/silentsongs_reykr.jpg"
+              alt="Gallery image 6"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_13">
+            <img
+              src="@/assets/img/silentsongs_7.jpg"
+              alt="Gallery image 7"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_14">
+            <img
+              src="@/assets/img/silentsongs_8.jpg"
+              alt="Gallery image 8"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+
+          <figure class="gallery_item_silentsongs_15">
+            <img
+              src="@/assets/img/silentsongs_9.jpg"
+              alt="Gallery image 1"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
+          <figure class="gallery_item_silentsongs_16">
+            <img
+              src="@/assets/img/silentsongs_10.jpg"
+              alt="Gallery image 2"
+              class="gallery_img_silentsongs"
+            />
+          </figure>
         </div>
-    
+      </div>
     </b-container>
   </div>
 </template>

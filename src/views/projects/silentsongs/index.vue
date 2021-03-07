@@ -17,120 +17,10 @@
 
       <div style="margin-top: 60px" class="d-none d-sm-block">
         <div class="gallery_silentsongs">
-          <figure class="gallery_item_silentsongs_1">
+           <figure v-for="i in 16" :key="'image-desktop-'+i" :class="'gallery_item_silentsongs_'+(i)">
             <img
-              src="@/assets/img/silentsongs_1.jpg"
-              alt="Gallery image 1"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_2">
-            <img
-              src="@/assets/img/silentsongs_2.jpg"
-              alt="Gallery image 2"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-
-          <figure class="gallery_item_silentsongs_3">
-            <img
-              src="@/assets/img/silentsongs_fyall.jpg"
-              alt="Gallery image 3"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_4">
-            <img
-              src="@/assets/img/silentsongs_3.jpg"
-              alt="Gallery image 4"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_5">
-            <img
-              src="@/assets/img/silentsongs_4.jpg"
-              alt="Gallery image 5"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-
-          <figure class="gallery_item_silentsongs_6">
-            <img
-              src="@/assets/img/silentsongs_ogha.jpg"
-              alt="Gallery image 6"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_7">
-            <img
-              src="@/assets/img/silentsongs_6.jpg"
-              alt="Gallery image 7"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_8">
-            <img
-              src="@/assets/img/silentsongs_5.jpg"
-              alt="Gallery image 8"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-
-          <figure class="gallery_item_silentsongs_9">
-            <img
-              src="@/assets/img/silentsongs_lioa.jpg"
-              alt="Gallery image 6"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_10">
-            <img
-              src="@/assets/img/silentsongs_7.jpg"
-              alt="Gallery image 7"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_11">
-            <img
-              src="@/assets/img/silentsongs_8.jpg"
-              alt="Gallery image 8"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-
-          <figure class="gallery_item_silentsongs_12">
-            <img
-              src="@/assets/img/silentsongs_reykr.jpg"
-              alt="Gallery image 6"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_13">
-            <img
-              src="@/assets/img/silentsongs_7.jpg"
-              alt="Gallery image 7"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_14">
-            <img
-              src="@/assets/img/silentsongs_8.jpg"
-              alt="Gallery image 8"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-
-          <figure class="gallery_item_silentsongs_15">
-            <img
-              src="@/assets/img/silentsongs_9.jpg"
-              alt="Gallery image 1"
-              class="gallery_img_silentsongs"
-            />
-          </figure>
-          <figure class="gallery_item_silentsongs_16">
-            <img
-              src="@/assets/img/silentsongs_10.jpg"
-              alt="Gallery image 2"
+              :src="link(i)"
+              :alt="'Gallery image' + (i+1)"
               class="gallery_img_silentsongs"
             />
           </figure>
@@ -138,7 +28,12 @@
       </div>
       <div class="d-block d-sm-none">
         <b-row>
-          <b-col v-for="i in 9" :key="'picture-mobile-' + i" sm="12" style="margin-top: 1vh;">
+          <b-col
+            v-for="i in 16"
+            :key="'picture-mobile-' + i"
+            sm="12"
+            style="margin-top: 1vh"
+          >
             <img :src="link(i)" width="100%" />
           </b-col>
         </b-row>

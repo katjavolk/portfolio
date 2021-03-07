@@ -3,176 +3,22 @@
     <h3>Projekte</h3>
 
     <b-row style="width: 100%; margin: auto">
-      <b-col class="column" style="padding: 0px" lg="4" md="6" sm="12">
-        <b-link to="/projects/wizard">
-          <img
-            class="image"
-            style="margin: 0px"
-            src="@/assets/img/wizard_teaser.jpg"
-          />
+      <b-col
+        v-for="project in $router.options.routes[2].children"
+        :key="project.name"
+        class="column"
+        style="padding: 0px"
+        lg="4"
+        md="6"
+        sm="12"
+      >
+        <b-link :to="project.path">
+          <img class="image" style="margin: 0px" :src="link(project.name)" />
           <div class="overlay">
             <div class="middlestuff" style="position: absolute">
-              Clod, the weather wizard
+              {{ project.meta.teaser }}
             </div>
           </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: blue; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/silentsongs">
-          <img
-            class="image"
-            style="width: 100%; margin: 0px"
-            src="@/assets/img/silentsongs_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">
-              Silent Songs
-            </div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: blue; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/geometryplus">
-          <img
-            class="image"
-            style="width: 100%; margin: 0px"
-            src="@/assets/img/geometryplus_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">Geometry+</div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: blue; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/horror">
-          <img
-            class="image"
-            style="width: 100%; margin: 0px"
-            src="@/assets/img/horror_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">
-              Geschichte des Horrors
-            </div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col class="column" style="padding: 0px" lg="4" md="6" sm="12">
-        <b-link to="/projects/pigsoninstagram">
-          <img
-            class="image"
-            style="width: 100%; margin: 0px"
-            src="@/assets/img/pigsoninstagram_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">
-              Why are there so many pigs on instagram?
-            </div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: blue; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/optipessi">
-          <img
-            class="image"
-            style="width: 100%; margin: 0px"
-            src="@/assets/img/optipessi_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">
-              Optimist:Pessismist
-            </div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: green; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/wabi">
-          <img
-            class="image"
-            style="width: 100%; height: auto; margin: 0px"
-            src="@/assets/img/wabiphone_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">Wabi Phone</div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: green; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <b-link to="/projects/tinkerfestival">
-          <img
-            class="image"
-            style="width: 100%; height: auto; margin: 0px"
-            src="@/assets/img/tinkerfestival_teaser.jpg"
-          />
-          <div class="overlay">
-            <div class="middlestuff" style="position: absolute">
-              Tinkerfestival Würzburg
-            </div>
-          </div>
-        </b-link>
-      </b-col>
-
-      <b-col
-        class="column"
-        style="background-color: blue; padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
-      >
-      <b-link to="/projects/pretzelprinter">
-        <img
-          class="image"
-          style="width: 100%; margin: 0px"
-          src="@/assets/img/pretzelprinter_teaser.jpg"
-        />
-        <div class="overlay">
-          <div class="middlestuff" style="postiion: absolute">
-            pretzelprinter Logo
-          </div>
-        </div>
         </b-link>
       </b-col>
     </b-row>
@@ -221,3 +67,13 @@
   text-align: center;
 }
 </style>
+
+<script>
+export default {
+  methods: {
+    link(route) {
+      return require("@/assets/img/" + route.toLowerCase() + "_teaser.jpg");
+    },
+  },
+};
+</script>

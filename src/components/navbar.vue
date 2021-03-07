@@ -22,7 +22,7 @@
                   v-for="link in $router.options.routes[2].children"
                   :key="link.name"
                   :to="link.path"
-                  >{{ link.title }}</b-dropdown-item
+                  >{{ link.meta.title }}</b-dropdown-item
                 >
               </b-nav-item-dropdown>
             </b-navbar-nav>

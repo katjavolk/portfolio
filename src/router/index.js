@@ -16,89 +16,105 @@ const routes = [
 
     component: () => import('../views/About.vue')
   },
-  {
+  {           // note: this route needs to be the 3 position in the routes array, otherwise the navigation doesn't work
     path: '/projects',
     name: 'Projekte',
     component: () => import('../views/Project.vue'),
     children: [
       {
-        path: '/projects/geometryplus',
-        name: 'geometryplus',
-        title: 'Geometry+',
-        meta: {
-          base_color: "#ffffff",
-        },
-        component: () => import('../views/projects/geometryplus/index.vue')
-      },
-      {
         path: '/projects/horror',
         name: 'horror',
-        title: 'Geschichte des Horrors',
         meta: {
+          title: 'Geschichte des Horrors',
           base_color: "#CE2E37",
+          teaser: 'Geschichte des Horrors'
         },
         component: () => import('../views/projects/horror/index.vue')
       },
       {
+        path: '/projects/geometryplus',
+        name: 'geometryplus',
+        meta: {
+          title: 'Geometry+',
+          base_color: "#ffffff",
+          teaser: 'Geometry+'
+        },
+        component: () => import('../views/projects/geometryplus/index.vue')
+      },
+      {
         path: '/projects/optipessi',
         name: 'optipessi',
-        title: 'Optimist:Pessimist',
+
         meta: {
+          title: 'Optimist:Pessimist',
           base_color: "#27272C",
+          teaser: 'Optimist:Pessismist'
         },
         component: () => import('../views/projects/optipessi/index.vue')
       },
       {
         path: '/projects/pigsoninstagram',
         name: 'pigsoninstagram',
-        title: 'Pigs on Instagram',
+
         meta: {
+          title: 'Why are there so many pigs on instagram?',
           base_color: "#FFC9E0",
+          teaser: 'Why are there so many pigs on instagram?'
         },
         component: () => import('../views/projects/pigsoninstagram/index.vue')
       },
       {
         path: '/projects/silentsongs',
         name: 'silentsongs',
-        title: 'Silent Songs',
+
         meta: {
+          title: 'Silent Songs',
           base_color: "#000000",
+          teaser: 'Silent Songs',
         },
         component: () => import('../views/projects/silentsongs/index.vue')
       },
       {
         path: '/projects/tinkerfestival',
         name: 'tinkerfestival',
-        title: 'Tinkerfestival',
+
         meta: {
+          title: 'Tinkerfestival',
           base_color: "#2AE1FF",
+          teaser: 'Tinkerfestival Würzburg'
         },
         component: () => import('../views/projects/tinkerfestival/index.vue')
       },
       {
         path: '/projects/wabi',
         name: 'wabi',
-        title: 'Wabi Phone',
+
         meta: {
+          title: 'Wabi Phone',
           base_color: "#F7BC15",
+          teaser: 'Wabi Phone'
         },
         component: () => import('../views/projects/wabi/index.vue')
       },
       {
         path: '/projects/wizard',
         name: 'wizard',
-        title: 'Clod, the weather wizard',
+
         meta: {
+          title: 'Clod, the weather wizard',
           base_color: "#135F84",
+          teaser: 'Clod, the weather wizard',
         },
         component: () => import('../views/projects/wizard/index.vue')
       },
       {
         path: '/projects/pretzelprinter',
         name: 'pretzelprinter',
-        title: 'Pretzelprinter',
+
         meta: {
+          title: 'Pretzelprinter',
           base_color: "#000",
+          teaser: 'pretzelprinter Logo'
         },
         component: () => import('../views/projects/pretzelprinter/index.vue')
       },
@@ -108,26 +124,32 @@ const routes = [
   {
     path: '/kontakt',
     name: 'Kontakt',
-
+    meta: {
+      title: "Kontakt",
+    },
     component: () => import('../views/Kontakt.vue')
   },
   {
     path: '/datenschutz',
     name: 'Datenschutz',
-
+    meta: {
+      title: "Datenschutz",
+    },
     component: () => import('../views/Datenschutz.vue')
   },
   {
     path: '/impressum',
     name: 'Impressum',
-
+    meta: {
+      title: "Impressum",
+    },
     component: () => import('../views/Impressum.vue')
   },
 ]
 
 const router = new VueRouter({
   routes,
-  scrollBehavior () {
+  scrollBehavior() {
     return { x: 0, y: 0 }
   }
 })

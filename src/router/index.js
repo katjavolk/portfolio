@@ -8,12 +8,17 @@ const routes = [
   {
     path: '/',
     name: 'Home',
+    meta: {
+      title: 'Portfolio',
+    },
     component: Home
   },
   {
     path: '/about',
     name: 'About',
-
+    meta: {
+      title: 'Über mich',
+    },
     component: () => import('../views/About.vue')
   },
   {           // note: this route needs to be the 3 position in the routes array, otherwise the navigation doesn't work

@@ -33,7 +33,7 @@ export default {
     kFooter,
   },
   mounted() {},
-  created() {
+  beforeUpdate() {
     document.title = "Katja Volk - " + this.$route.meta.title;
   },
 };

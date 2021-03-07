@@ -1,6 +1,6 @@
 <template>
   <div>
-    <headerimg headerimgbackground="black" />
+    <headerimg />
     <router-view />
   </div>
 </template>

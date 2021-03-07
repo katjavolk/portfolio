@@ -24,8 +24,8 @@ const routes = [
       {
         path: '/projects/geometryplus',
         name: 'geometryplus',
-        title: 'Geometry+',
         meta: {
+          title: 'Geometry+',
           base_color: "#ffffff",
         },
         component: () => import('../views/projects/geometryplus/index.vue')
@@ -33,8 +33,8 @@ const routes = [
       {
         path: '/projects/horror',
         name: 'horror',
-        title: 'Geschichte des Horrors',
         meta: {
+          title: 'Geschichte des Horrors',
           base_color: "#CE2E37",
         },
         component: () => import('../views/projects/horror/index.vue')
@@ -42,8 +42,9 @@ const routes = [
       {
         path: '/projects/optipessi',
         name: 'optipessi',
-        title: 'Optimist:Pessimist',
+
         meta: {
+          title: 'Optimist:Pessimist',
           base_color: "#27272C",
         },
         component: () => import('../views/projects/optipessi/index.vue')
@@ -51,8 +52,9 @@ const routes = [
       {
         path: '/projects/pigsoninstagram',
         name: 'pigsoninstagram',
-        title: 'Pigs on Instagram',
+
         meta: {
+          title: 'Pigs on Instagram',
           base_color: "#FFC9E0",
         },
         component: () => import('../views/projects/pigsoninstagram/index.vue')
@@ -60,8 +62,9 @@ const routes = [
       {
         path: '/projects/silentsongs',
         name: 'silentsongs',
-        title: 'Silent Songs',
+
         meta: {
+          title: 'Silent Songs',
           base_color: "#000000",
         },
         component: () => import('../views/projects/silentsongs/index.vue')
@@ -69,8 +72,9 @@ const routes = [
       {
         path: '/projects/tinkerfestival',
         name: 'tinkerfestival',
-        title: 'Tinkerfestival',
+
         meta: {
+          title: 'Tinkerfestival',
           base_color: "#2AE1FF",
         },
         component: () => import('../views/projects/tinkerfestival/index.vue')
@@ -78,8 +82,9 @@ const routes = [
       {
         path: '/projects/wabi',
         name: 'wabi',
-        title: 'Wabi Phone',
+
         meta: {
+          title: 'Wabi Phone',
           base_color: "#F7BC15",
         },
         component: () => import('../views/projects/wabi/index.vue')
@@ -87,8 +92,9 @@ const routes = [
       {
         path: '/projects/wizard',
         name: 'wizard',
-        title: 'Clod, the weather wizard',
+
         meta: {
+          title: 'Clod, the weather wizard',
           base_color: "#135F84",
         },
         component: () => import('../views/projects/wizard/index.vue')
@@ -96,8 +102,9 @@ const routes = [
       {
         path: '/projects/pretzelprinter',
         name: 'pretzelprinter',
-        title: 'Pretzelprinter',
+
         meta: {
+          title: 'Pretzelprinter',
           base_color: "#000",
         },
         component: () => import('../views/projects/pretzelprinter/index.vue')
@@ -108,26 +115,32 @@ const routes = [
   {
     path: '/kontakt',
     name: 'Kontakt',
-
+    meta: {
+      title: "Kontakt",
+    },
     component: () => import('../views/Kontakt.vue')
   },
   {
     path: '/datenschutz',
     name: 'Datenschutz',
-
+    meta: {
+      title: "Datenschutz",
+    },
     component: () => import('../views/Datenschutz.vue')
   },
   {
     path: '/impressum',
     name: 'Impressum',
-
+    meta: {
+      title: "Impressum",
+    },
     component: () => import('../views/Impressum.vue')
   },
 ]
 
 const router = new VueRouter({
   routes,
-  scrollBehavior () {
+  scrollBehavior() {
     return { x: 0, y: 0 }
   }
 })

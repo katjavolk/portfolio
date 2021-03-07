@@ -33,5 +33,8 @@ export default {
     kFooter,
   },
   mounted() {},
+  created() {
+    document.title = "Katja Volk - " + this.$route.meta.title;
+  },
 };
 </script>

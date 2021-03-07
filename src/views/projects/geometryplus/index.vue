@@ -3,7 +3,6 @@
     <b-container>
       <titel>
         <template #title>Geometry+</template>
-        
       </titel>
       <paragraph>
         Geometry+ ist eine Sammlung von Grafiken, die zu unterschiedlichen
@@ -12,7 +11,7 @@
         Längen, Abständen, Flächen und Winkel. Entscheidend ist, dass nicht
         freihand gezeichnet wird. Alles ist abgemessen, berechnet oder hat einen
         festen Punkt im Koordinatensystem. Genau dieses Prinzip wurde für die
-        Grafiken von Geometry + angewendet. Die Grafiken sind konstruiert, die
+        Grafiken von Geometry+ angewendet. Die Grafiken sind konstruiert, die
         Längen und Größen von Strecken und Flächen voneinander und von
         Informationen abhänig. Auch wenn alle Grafiken auf Informatonen und
         Daten der Themen basieren, stehen die Grafiken und nicht die
@@ -20,127 +19,34 @@
         Geometrie unterschiedlichste Bilder aus Daten entstehen
         können.</paragraph
       >
-      <template>
-        <div style="margin-top: 60px">
-          <div class="gallery_geometry">
-            <figure class="gallery_item_geometry_1">
-              <img
-                src="@/assets/img/geometry_1.jpg"
-                alt="Gallery image 1"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_2">
-              <img
-                src="@/assets/img/geometry_2.jpg"
-                alt="Gallery image 2"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_3">
-              <img
-                src="@/assets/img/geometry_3.jpg"
-                alt="Gallery image 3"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_4">
-              <img
-                src="@/assets/img/geometry_4.jpg"
-                alt="Gallery image 4"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_5">
-              <img
-                src="@/assets/img/geometry_5.jpg"
-                alt="Gallery image 5"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_6">
-              <img
-                src="@/assets/img/geometry_6.jpg"
-                alt="Gallery image 6"
-                class="gallery_img_geometry"
-              />
-            </figure>
 
-            <figure class="gallery_item_geometry_7">
-              <img
-                src="@/assets/img/geometry_7.jpg"
-                alt="Gallery image 7"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_8">
-              <img
-                src="@/assets/img/geometry_8.jpg"
-                alt="Gallery image 8"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_9">
-              <img
-                src="@/assets/img/geometry_9.jpg"
-                alt="Gallery image 9"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_10">
-              <img
-                src="@/assets/img/geometry_10.jpg"
-                alt="Gallery image 10"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_11">
-              <img
-                src="@/assets/img/geometry_11.jpg"
-                alt="Gallery image 11"
-                class="gallery_img_geometry"
-              />
-            </figure>
-
-            <figure class="gallery_item_geometry_12">
-              <img
-                src="@/assets/img/geometry_12.jpg"
-                alt="Gallery image 12"
-                class="gallery_img_geometry"
-              />
-            </figure>
-
-            <figure class="gallery_item_geometry_13">
-              <img
-                src="@/assets/img/geometry_13.jpg"
-                alt="Gallery image 13"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_14">
-              <img
-                src="@/assets/img/geometry_14.jpg"
-                alt="Gallery image 14"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_15">
-              <img
-                src="@/assets/img/geometry_15.jpg"
-                alt="Gallery image 15"
-                class="gallery_img_geometry"
-              />
-            </figure>
-            <figure class="gallery_item_geometry_16">
-              <img
-                src="@/assets/img/geometry_16.jpg"
-                alt="Gallery image 16"
-                class="gallery_img_geometry"
-              />
-            </figure>
-          </div>
+      <div style="margin-top: 60px" class="d-none d-sm-block">
+        <div class="gallery_geometry">
+          <figure
+            v-for="i in 16"
+            :key="'image-desktop-' + i"
+            :class="'gallery_item_geometry_' + i"
+          >
+            <img :src="link(i)" style="" class="gallery_img_geometry" />
+          </figure>
         </div>
-      </template>
+      </div>
+      <div class="d-block d-sm-none">
+        <b-row>
+          <b-col sm="12" style="margin-top: 1vh">
+            <img src="@/assets/img/geometry_1_mobile.jpg" width="100%" />
+          </b-col>
+
+          <b-col
+            v-for="i in 15"
+            :key="'picture-mobile-' + i"
+            sm="12"
+            style="margin-top: 1vh"
+          >
+            <img :src="link(i + 1)" width="100%" />
+          </b-col>
+        </b-row>
+      </div>
     </b-container>
   </div>
 </template>
@@ -242,15 +148,15 @@
 
 .gallery_item_geometry_11 {
   grid-column-start: 4;
-  grid-column-end: 9;
+  grid-column-end: 8;
   grid-row-start: 13;
   grid-row-end: 17;
   margin-bottom: 0px;
 }
 
 .gallery_item_geometry_12 {
-  grid-column-start: 2;
-  grid-column-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 7;
   grid-row-start: 17;
   grid-row-end: 23;
   margin-bottom: 0px;
@@ -296,10 +202,15 @@ import titel from "@/components/project/titel.vue";
 import paragraph from "@/components/project/paragraph.vue";
 
 export default {
-  name: "Horror",
+  name: "Geometry+",
   components: {
     titel,
     paragraph,
+  },
+  methods: {
+    link(image) {
+      return require("@/assets/img/geometry_" + image + ".jpg");
+    },
   },
 };
 </script>

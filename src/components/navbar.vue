@@ -2,7 +2,7 @@
   <div>
     <b-container>
       <b-navbar
-        style="padding-left: 0px; padding-right: 0px; padding-bottom: 0px"
+        style="padding: 1vh 0 0 0;"
         toggleable="lg"
       >
         <b-navbar-brand to="/">Katja Volk</b-navbar-brand>
@@ -17,6 +17,7 @@
               <b-nav-item to="/about">Über</b-nav-item>
               <b-nav-item to="/kontakt">Kontakt</b-nav-item>
               <b-nav-item-dropdown to="/" text="Projekte" right>
+                <!-- @TODO: do this properly, routes[2] can change -->
                 <b-dropdown-item
                   v-for="link in $router.options.routes[2].children"
                   :key="link.name"
@@ -30,8 +31,7 @@
       </b-navbar>
     </b-container>
     <hr
-      style="background-color: #4885ff; height: 6px; padding: 0px 0px 0px 0px"
-      class="d-block"
+      style="background-color: #4885ff; height: 6px; padding: 0 0 0 0; margin: 1vh 0 0 0;"
     />
   </div>
 </template>

@@ -22,46 +22,15 @@ const routes = [
     component: () => import('../views/Project.vue'),
     children: [
       {
-        path: '/projects/horror',
-        name: 'horror',
-        meta: {
-          title: 'Geschichte des Horrors',
-          base_color: "#CE2E37",
-          teaser: 'Geschichte des Horrors'
-        },
-        component: () => import('../views/projects/horror/index.vue')
-      },
-      {
-        path: '/projects/geometryplus',
-        name: 'geometryplus',
-        meta: {
-          title: 'Geometry+',
-          base_color: "#ffffff",
-          teaser: 'Geometry+'
-        },
-        component: () => import('../views/projects/geometryplus/index.vue')
-      },
-      {
-        path: '/projects/optipessi',
-        name: 'optipessi',
+        path: '/projects/wizard',
+        name: 'wizard',
 
         meta: {
-          title: 'Optimist:Pessimist',
-          base_color: "#27272C",
-          teaser: 'Optimist:Pessismist'
+          title: 'Clod, the weather wizard',
+          base_color: "#135F84",
+          teaser: 'Clod, the weather wizard',
         },
-        component: () => import('../views/projects/optipessi/index.vue')
-      },
-      {
-        path: '/projects/pigsoninstagram',
-        name: 'pigsoninstagram',
-
-        meta: {
-          title: 'Why are there so many pigs on instagram?',
-          base_color: "#FFC9E0",
-          teaser: 'Why are there so many pigs on instagram?'
-        },
-        component: () => import('../views/projects/pigsoninstagram/index.vue')
+        component: () => import('../views/projects/wizard/index.vue')
       },
       {
         path: '/projects/silentsongs',
@@ -75,15 +44,46 @@ const routes = [
         component: () => import('../views/projects/silentsongs/index.vue')
       },
       {
-        path: '/projects/tinkerfestival',
-        name: 'tinkerfestival',
+        path: '/projects/geometryplus',
+        name: 'geometryplus',
+        meta: {
+          title: 'Geometry+',
+          base_color: "#ffffff",
+          teaser: 'Geometry+'
+        },
+        component: () => import('../views/projects/geometryplus/index.vue')
+      },
+      {
+        path: '/projects/horror',
+        name: 'horror',
+        meta: {
+          title: 'Geschichte des Horrors',
+          base_color: "#CE2E37",
+          teaser: 'Geschichte des Horrors'
+        },
+        component: () => import('../views/projects/horror/index.vue')
+      },
+      {
+        path: '/projects/pigsoninstagram',
+        name: 'pigsoninstagram',
 
         meta: {
-          title: 'Tinkerfestival',
-          base_color: "#2AE1FF",
-          teaser: 'Tinkerfestival Würzburg'
+          title: 'Why are there so many pigs on instagram?',
+          base_color: "#FFC9E0",
+          teaser: 'Why are there so many pigs on instagram?'
         },
-        component: () => import('../views/projects/tinkerfestival/index.vue')
+        component: () => import('../views/projects/pigsoninstagram/index.vue')
+      },
+      {
+        path: '/projects/optipessi',
+        name: 'optipessi',
+
+        meta: {
+          title: 'Optimist:Pessimist',
+          base_color: "#27272C",
+          teaser: 'Optimist:Pessismist'
+        },
+        component: () => import('../views/projects/optipessi/index.vue')
       },
       {
         path: '/projects/wabi',
@@ -96,17 +96,20 @@ const routes = [
         },
         component: () => import('../views/projects/wabi/index.vue')
       },
+      
       {
-        path: '/projects/wizard',
-        name: 'wizard',
+        path: '/projects/tinkerfestival',
+        name: 'tinkerfestival',
 
         meta: {
-          title: 'Clod, the weather wizard',
-          base_color: "#135F84",
-          teaser: 'Clod, the weather wizard',
+          title: 'Tinkerfestival',
+          base_color: "#2AE1FF",
+          teaser: 'Tinkerfestival Würzburg'
         },
-        component: () => import('../views/projects/wizard/index.vue')
+        component: () => import('../views/projects/tinkerfestival/index.vue')
       },
+    
+      
       {
         path: '/projects/pretzelprinter',
         name: 'pretzelprinter',

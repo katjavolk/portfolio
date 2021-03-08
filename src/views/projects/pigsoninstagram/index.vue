@@ -3,7 +3,6 @@
     <b-container>
       <titel>
         <template #title>Why are there so many pigs on instagram?</template>
-        
       </titel>
       <paragraph
         >Sie haben Hunderttausende Abonnenten. Mehr als du auf jeden Fall.
@@ -18,7 +17,7 @@
 
       <kVideo :video="videoid" />
 
-      <div style="margin-top: 60px">
+      <div style="margin-top: 60px" class="d-none d-sm-block">
         <div class="gallery_pigs">
           <figure class="gallery_item_pigs_1">
             <img
@@ -63,6 +62,18 @@
             />
           </figure>
         </div>
+      </div>
+      <div class="d-block d-sm-none">
+        <b-row>
+          <b-col
+            v-for="i in 6"
+            :key="'picture-mobile-' + i"
+            sm="12"
+            style="margin-top: 1vh"
+          >
+            <img :src="link(i)" width="100%" />
+          </b-col>
+        </b-row>
       </div>
     </b-container>
   </div>
@@ -149,6 +160,11 @@ export default {
     return {
       videoid: 349456126,
     };
+  },
+  methods: {
+    link(image) {
+      return require("@/assets/img/pigsoninstagram_" + image + ".png");
+    },
   },
 };
 </script>

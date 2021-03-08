@@ -1,9 +1,8 @@
 <template>
-  <b-container fluid>
+  <b-container>
     <titel>
-        <template #title>Geschichte des Horrors</template>
-       
-      </titel>
+      <template #title>Geschichte des Horrors</template>
+    </titel>
     <paragraph>
       Gruselgeschichten sind so alt wie die Menschheit selbst. Auf 72 Seiten
       wird diese Historie und wichtige Persönlichkeiten des Genres in
@@ -11,7 +10,7 @@
       unsere Lust zum Gruseln überhaupt herkommt.</paragraph
     >
     <template>
-      <div style="margin-top: 60px">
+      <div style="margin-top: 60px" class="d-none d-sm-block">
         <div class="gallery_horror">
           <figure class="gallery_item_horror_1">
             <img
@@ -36,7 +35,7 @@
           </figure>
           <figure class="gallery_item_horror_4">
             <img
-              src="@/assets/img/horror_10.jpg"
+              src="@/assets/img/horror_7.jpg"
               alt="Gallery image 4"
               class="gallery_img_horror"
             />
@@ -64,12 +63,24 @@
           </figure>
           <figure class="gallery_item_horror_8">
             <img
-              src="@/assets/img/horror_10.jpg"
+              src="@/assets/img/horror_7.jpg"
               alt="Gallery image 8"
               class="gallery_img_horror"
             />
           </figure>
         </div>
+      </div>
+      <div class="d-block d-sm-none">
+        <b-row>
+          <b-col
+            v-for="i in 7"
+            :key="'picture-mobile-' + i"
+            sm="12"
+            style="margin-top: 1vh"
+          >
+            <img :src="link(i)" width="100%" />
+          </b-col>
+        </b-row>
       </div>
     </template>
   </b-container>
@@ -166,6 +177,11 @@ export default {
   components: {
     titel,
     paragraph,
+  },
+    methods: {
+    link(image) {
+      return require("@/assets/img/horror_" + image + ".jpg");
+    },
   },
 };
 </script>

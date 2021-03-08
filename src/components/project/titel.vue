@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 576px) {
   .h1size {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 45px;
   }
 }
 

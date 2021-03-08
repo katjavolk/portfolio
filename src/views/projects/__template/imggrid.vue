@@ -1,48 +1,27 @@
 <template>
-  <b-container style="padding:0px;">
-    <div class="gallery">
-      <figure class="gallery__item gallery__item--1">
-        <img
-          src="https://www.tierschutzbund.de/fileadmin/_processed_/4/8/csm_Katze-Pfoten_fe2be12322.jpg"
-          alt="Gallery image 1"
-          class="gallery__img"
-        />
-      </figure>
-      <figure class="gallery__item gallery__item--2">
-        <img
-          src="https://www.tierschutzbund.de/fileadmin/_processed_/4/8/csm_Katze-Pfoten_fe2be12322.jpg"
-          alt="Gallery image 2"
-          class="gallery__img"
-        />
-      </figure>
-      <figure class="gallery__item gallery__item--3">
-        <img
-          src="https://www.mera-petfood.com/files/_processed_/b/3/csm_Katze_eingewoehnen_MERA-Katzenratgeber_85ea6d4ff6.jpg"
-          alt="Gallery image 3"
-          class="gallery__img"
-        />
-      </figure>
-      <figure class="gallery__item gallery__item--4">
-        <img
-          src="https://www.tierschutzbund.de/fileadmin/_processed_/4/8/csm_Katze-Pfoten_fe2be12322.jpg"
-          alt="Gallery image 4"
-          class="gallery__img"
-        />
-      </figure>
-      <figure class="gallery__item gallery__item--5">
-        <img
-          src="https://www.mera-petfood.com/files/_processed_/b/3/csm_Katze_eingewoehnen_MERA-Katzenratgeber_85ea6d4ff6.jpg"
-          alt="Gallery image 5"
-          class="gallery__img"
-        />
-      </figure>
-      <figure class="gallery__item gallery__item--6">
-        <img
-          src="https://www.mera-petfood.com/files/_processed_/b/3/csm_Katze_eingewoehnen_MERA-Katzenratgeber_85ea6d4ff6.jpg"
-          alt="Gallery image 6"
-          class="gallery__img"
-        />
-      </figure>
+  <b-container style="padding: 0px">
+    <div style="margin-top: 60px" class="d-none d-sm-block">
+      <div class="gallery_geometry">
+        <figure
+          v-for="i in 16"
+          :key="'image-desktop-' + i"
+          :class="'gallery_item_geometry_' + i"
+        >
+          <img :src="link(i)" style="" class="gallery_img_geometry" />
+        </figure>
+      </div>
+    </div>
+    <div class="d-block d-sm-none">
+      <b-row>
+        <b-col
+          v-for="i in 16"
+          :key="'picture-mobile-' + i"
+          sm="12"
+          style="margin-top: 1vh"
+        >
+          <img :src="link(i)" width="100%" />
+        </b-col>
+      </b-row>
     </div>
   </b-container>
 </template>
@@ -110,3 +89,21 @@
   margin-bottom: 0px;
 }
 </style>
+
+<script>
+import titel from "@/components/project/titel.vue";
+import paragraph from "@/components/project/paragraph.vue";
+
+export default {
+  name: "__template",
+  components: {
+    titel,
+    paragraph,
+  },
+  methods: {
+    link(image) {
+      return require("@/assets/img/template_" + image + ".jpg");
+    },
+  },
+};
+</script>

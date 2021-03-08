@@ -1,9 +1,12 @@
  <template>
   <div>
     <b-container>
-      <titel headline="pretzelprinter" subheadline="Logo und Visitenkarte" />
-      
-         <div style="margin-top: 60px">
+      <titel>
+        <template #title>pretzelprinter</template>
+        <template #subtitle>Logo und Visitenkarte</template>
+      </titel>
+
+      <div style="margin-top: 60px" class="d-none d-sm-block">
         <div class="gallery_pretzelprinter">
           <figure class="gallery_item_pretzelprinter_1">
             <img
@@ -50,9 +53,18 @@
           </figure>
         </div>
       </div>
-
-
-
+      <div class="d-block d-sm-none">
+        <b-row>
+          <b-col
+            v-for="i in 6"
+            :key="'picture-mobile-' + i"
+            sm="12"
+            style="margin-top: 1vh"
+          >
+            <img :src="link(i)" width="100%" />
+          </b-col>
+        </b-row>
+      </div>
     </b-container>
   </div>
 </template>
@@ -125,12 +137,15 @@
  <script>
 import titel from "@/components/project/titel.vue";
 
-
 export default {
-  name: "Home",
+  name: "Pretzelprinter",
   components: {
     titel,
-    
+  },
+  methods: {
+    link(image) {
+      return require("@/assets/img/pretzelprinter_" + image + ".jpg");
+    },
   },
 };
 </script>

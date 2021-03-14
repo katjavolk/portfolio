@@ -1,11 +1,14 @@
 <template>
   <div>
     <b-container>
-
-      <titel>
-        <template #title>Optimist:Pessimist</template>
-       
+      <titel v-if="isMobile">
+        <template #title>Optimist: Pessimist</template>
       </titel>
+
+      <titel v-else>
+        <template #title>Optimist:Pessimist</template>
+      </titel>
+
       <paragraph
         >Dieses interaktive Plakat soll einem gewöhnlich starren Medium die
         Möglichkeit geben mehr als nur eine unveränderbare Aussage zu haben. Per
@@ -107,6 +110,20 @@ export default {
   components: {
     titel,
     paragraph,
+  },
+  computed: {
+    isMobile() {
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        //console.log("Mobile Browser detected");
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
 };
 </script>

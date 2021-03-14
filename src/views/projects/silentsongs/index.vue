@@ -193,7 +193,7 @@ import titel from "@/components/project/titel.vue";
 import paragraph from "@/components/project/paragraph.vue";
 
 export default {
-  name: "Silent Songs",
+  name: "Silent_Songs",
   components: {
     titel,
     paragraph,

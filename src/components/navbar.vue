@@ -17,9 +17,8 @@
               <b-nav-item to="/about">Über</b-nav-item>
               <b-nav-item to="/kontakt">Kontakt</b-nav-item>
               <b-nav-item-dropdown to="/" text="Projekte" right>
-                <!-- @TODO: do this properly, routes[2] can change -->
                 <b-dropdown-item
-                  v-for="link in $router.options.routes[2].children"
+                  v-for="link in projects"
                   :key="link.name"
                   :to="link.path"
                   >{{ link.meta.title }}</b-dropdown-item
@@ -35,3 +34,14 @@
     />
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    projects()
+    {
+      return this.$router.options.routes.filter(obj => { return obj.name === 'Projekte';})[0].children;
+    }
+  }
+}
+</script>

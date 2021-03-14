@@ -32,7 +32,9 @@ export default {
     navbar,
     kFooter,
   },
-  mounted() {},
+  mounted() {
+    document.title = "Katja Volk";
+  },
   beforeUpdate() {
     document.title = "Katja Volk - " + this.$route.meta.title;
   },

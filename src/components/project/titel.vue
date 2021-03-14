@@ -44,34 +44,30 @@
 .h2size {
   font-size: 30px;
   font-family: Syne-Bold;
-  margin-top: -20px;
+  margin-top: -1vh;
 }
 
 @media screen and (max-width: 1200px) {
   .h2size {
     font-size: 30px;
-    margin-top: -20px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .h2size {
     font-size: 30px;
-    margin-top: -15px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .h2size {
     font-size: 30px;
-    margin-top: -15px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .h2size {
     font-size: 20px;
-    margin-top: -10px;
   }
 }
 </style>

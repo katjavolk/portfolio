@@ -3,10 +3,7 @@
     <b-container>
       <titel headline="Clod, <br> the weather wizard" />
       <titel>
-        <template #title>
-          Clod, 
-          the weather wizard
-        </template>
+        <template #title> Clod, the weather wizard </template>
       </titel>
       <div class="d-none d-sm-block">
         <b-row>
@@ -42,6 +39,11 @@
         </b-row>
       </div>
       <div class="d-block d-sm-none">
+        <b-row>
+          <b-col>
+            <kVideo :video="videoid" />
+          </b-col>
+        </b-row>
         <b-row>
           <b-col>
             <img

@@ -14,8 +14,10 @@
         Accessoires lässt sich nicht immer sagen wer hier insziniert
         wird.</paragraph
       >
-
-      <kVideo :video="videoid" />
+      <div style="margin-top: 3vh;">
+        <kVideo :video="videoid" />
+      </div>
+      
 
       <div style="margin-top: 60px" class="d-none d-sm-block">
         <div class="gallery_pigs">

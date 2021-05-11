@@ -70,6 +70,41 @@
     font-size: 20px;
   }
 }
+
+h3 {
+    font-family: Syne-Bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
 </style>
 
 <script>

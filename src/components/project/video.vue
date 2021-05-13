@@ -1,19 +1,50 @@
  <template>
-  <div style="padding:56.25% 0 0 0;position:relative; margin-top:6em;">
-    <iframe
-      :src="'https://player.vimeo.com/video/'+video+'?title=0&byline=0&portrait=0'"
-      style="position:absolute;top:0;left:0;width:100%;height:100%;"
-      frameborder="0"
-      allow="autoplay; fullscreen"
-      allowfullscreen
-    ></iframe>
+  <div>
+    <vueVimeoPlayer
+      ref="player"
+      :video-id="video"
+      :options="options"
+      @ready="onReady"
+    />
   </div>
 </template>
 
 <script>
+import { vueVimeoPlayer } from "vue-vimeo-player";
+// vue player docu: https://github.com/dobromir-hristov/vue-vimeo-player/tree/master
+// vimeo player docu: https://github.com/vimeo/player.js/#embed-options
 export default {
+  name: "VimeoVideoPlayer",
+  components: { vueVimeoPlayer },
   props: {
     video: Number,
   },
+  data() {
+    return {
+      options: {
+        muted: false,
+        autoplay: false,
+        controls: false,
+        title: false,
+        portrait: false,
+        byline: false,
+        responsive: true,
+        //height: 1000,
+      },
+      playerReady: false,
+    };
+  },
+  methods: {
+    onReady() {
+      this.playerReady = true;
+    },
+    play() {
+      this.$refs.player.play();
+    },
+    pause() {
+      this.$refs.player.pause();
+    },
+  },
 };
 </script>
+

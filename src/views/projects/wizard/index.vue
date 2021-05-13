@@ -8,7 +8,9 @@
       <div class="d-none d-sm-block">
         <b-row>
           <b-col>
-            <kVideo :video="videoid" />
+            <div style="margin-top: 3vh">
+              <kVideo :video="videoid" />
+            </div>
           </b-col>
         </b-row>
         <b-row style="margin-top: 1%">
@@ -41,7 +43,9 @@
       <div class="d-block d-sm-none">
         <b-row>
           <b-col>
-            <kVideo :video="videoid" />
+            <div>
+              <kVideo :video="videoid" />
+            </div>
           </b-col>
         </b-row>
         <b-row>

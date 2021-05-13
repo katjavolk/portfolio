@@ -8,9 +8,9 @@
         :key="project.name"
         class="column"
         style="padding: 0px"
-        lg="4"
-        md="6"
-        sm="12"
+        :lg="project.meta.prominent ? '12' : '4'"
+        :md="project.meta.prominent ? '12' : '6'"
+        :sm="project.meta.prominent ? '12' : '12'"
       >
         <b-link :to="project.path">
           <img class="image" style="margin: 0px" :src="link(project.name)" />

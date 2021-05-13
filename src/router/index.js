@@ -27,6 +27,18 @@ const routes = [
     component: () => import('../views/Project.vue'),
     children: [
       {
+        path: '/projects/darkpatterns',
+        name: 'darkpatterns',
+
+        meta: {
+          title: 'Dark Patterns',
+          base_color: "#FFFFFF",
+          teaser: 'Dark Patterns',
+          prominent: true,
+        },
+        component: () => import('../views/projects/darkpatterns/index.vue')
+      },
+      {
         path: '/projects/wizard',
         name: 'wizard',
 

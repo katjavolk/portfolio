@@ -2,12 +2,13 @@
   <div style="margin-bottom: 100px; margin-top: 30px">
     <h1 class="h1size">Hey!</h1>
 
-    <h3>Das ist mein Portfolio. <br v-if="isMobile" />Check it out!</h3>
+    <h4>Das ist mein Portfolio. <br v-if="isMobile" />Check it out!</h4>
   </div>
 </template>
 
 
-<style lang="scss">
+
+<style scoped>
 .h1size {
   font-size: 200px;
   font-family: Syne-Bold;
@@ -30,6 +31,11 @@
     font-size: 120px;
   }
 }
+
+h4{
+  font-size: 1.75rem;
+}
+
 </style>
 
 
